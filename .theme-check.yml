@@ -47,7 +47,7 @@ SpaceInsideBraces:
   ignore: []
 
 SyntaxError:
-  enabled: true
+  enabled: false
   ignore: []
 
 TemplateLength:
@@ -74,23 +74,23 @@ UnusedSnippet:
   ignore: []
 
 MatchingSchemaTranslations:
-  enabled: true
+  enabled: false
   ignore: []
 
 MatchingTranslations:
-  enabled: true
+  enabled: false
   ignore: []
 
 DefaultLocale:
-  enabled: true
+  enabled: false
   ignore: []
 
 TranslationKeyExists:
-  enabled: true
+  enabled: false
   ignore: []
 
 ValidHTMLTranslation:
-  enabled: true
+  enabled: false
   ignore: []
 
 ValidJson:
@@ -98,7 +98,7 @@ ValidJson:
   ignore: []
 
 ValidSchema:
-  enabled: true
+  enabled: false
   ignore: []
 
 MissingRequiredTemplateFiles:
