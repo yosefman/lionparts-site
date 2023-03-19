@@ -59,339 +59,6 @@
     "checkout_button_color": "#197bbd",
     "checkout_error_color": "#e32c2b",
     "collection_sidebar_filters": "tags",
-    "sections": {
-      "header": {
-        "type": "header",
-        "settings": {
-          "menu": "top-categories",
-          "logo": "shopify:\/\/shop_images\/logo_07392ee5-2df2-469f-be7c-ea7d33c38679.png",
-          "logo_max_width": "280",
-          "show_announcement": true,
-          "announcement_text": "FREE US SHIPPING ON ORDERS $50+!",
-          "announcement_link": ""
-        }
-      },
-      "footer": {
-        "type": "footer",
-        "blocks": {
-          "menu": {
-            "type": "menu",
-            "settings": {
-              "title": "Quick links",
-              "menu": "",
-              "width": "16%"
-            }
-          },
-          "newsletter": {
-            "type": "newsletter",
-            "settings": {
-              "title": "Newsletter",
-              "subtext": "<p>Promotions, new products and sales. Directly to your inbox.<\/p>",
-              "width": "33%"
-            }
-          }
-        },
-        "block_order": [
-          "menu",
-          "newsletter"
-        ],
-        "settings": {
-          "social_enabled": true,
-          "show_payment_icons": false,
-          "legal_menu": ""
-        }
-      },
-      "slideshow": {
-        "type": "slideshow",
-        "blocks": {
-          "009ab3f9-276c-4f41-981f-5c9871101590": {
-            "type": "image",
-            "settings": {
-              "slide": "shopify:\/\/shop_images\/WebBannerG1400x420.png",
-              "link": "shopify:\/\/collections\/all"
-            }
-          },
-          "1594133916275": {
-            "type": "image",
-            "settings": {
-              "slide": "shopify:\/\/shop_images\/BannerKFIPlowFix.png",
-              "link": "shopify:\/\/collections\/kfi"
-            }
-          },
-          "7108872e-8675-4918-9b19-c4ce4680e33d": {
-            "type": "image",
-            "settings": {
-              "slide": "shopify:\/\/shop_images\/Header2Seizmik.png",
-              "link": "shopify:\/\/collections\/seizmik"
-            }
-          },
-          "slide-0": {
-            "type": "image",
-            "settings": {
-              "slide": "shopify:\/\/shop_images\/BannerINFERNO.png",
-              "link": "shopify:\/\/collections\/inferno"
-            }
-          },
-          "1594133190179": {
-            "type": "image",
-            "settings": {
-              "slide": "shopify:\/\/shop_images\/BannerALL-BALLS.png",
-              "link": "shopify:\/\/collections\/all-balls"
-            }
-          },
-          "122ca37d-f44d-496d-b094-a2b760e394d4": {
-            "type": "image",
-            "settings": {
-              "slide": "shopify:\/\/shop_images\/BannerITP.png",
-              "link": "https:\/\/lionparts.com\/collections\/vendors?rb_vendor=ITP"
-            }
-          }
-        },
-        "block_order": [
-          "009ab3f9-276c-4f41-981f-5c9871101590",
-          "1594133916275",
-          "7108872e-8675-4918-9b19-c4ce4680e33d",
-          "slide-0",
-          "1594133190179",
-          "122ca37d-f44d-496d-b094-a2b760e394d4"
-        ],
-        "settings": {
-          "slider_home_auto": true,
-          "slider_home_rate": "5000"
-        }
-      },
-      "1594390608853": {
-        "type": "advanced-content",
-        "blocks": {
-          "1594390608853-0": {
-            "type": "html",
-            "settings": {
-              "code": "<div id=\"feat-cats\" class=\"cw ns flex-just\">\n\t<a href=\"\/collections\/motorcycle\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0021\/7120\/7759\/t\/48\/assets\/feat-cat-01.jpg\" alt=\"Shop Motorcycle\"><\/a>\n\t<a href=\"\/collections\/dirt-bike\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0021\/7120\/7759\/t\/48\/assets\/feat-cat-02.jpg\" alt=\"Shop Dirt Bike\"><\/a>\n\t<a href=\"\/collections\/atv\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0021\/7120\/7759\/t\/48\/assets\/feat-cat-03.jpg\" alt=\"Shop ATV\"><\/a>\n\t<a href=\"\/collections\/utv\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0021\/7120\/7759\/t\/48\/assets\/feat-cat-04.jpg\" alt=\"Shop UTV\"><\/a>\n\t<a href=\"\/collections\/snow\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0021\/7120\/7759\/t\/48\/assets\/feat-cat-05.jpg\" alt=\"Shop Snow\"><\/a>\n\t\n\t<a href=\"\/collections\/auto-body-shop\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0021\/7120\/7759\/t\/48\/assets\/feat-cat-07.jpg\" alt=\"Shop Auto Body\"><\/a>\n\n<\/div>",
-              "width": "100%",
-              "alignment": "top-middle"
-            }
-          }
-        },
-        "block_order": [
-          "1594390608853-0"
-        ],
-        "settings": {
-        }
-      },
-      "1594392921984": {
-        "type": "advanced-content",
-        "disabled": true,
-        "blocks": {
-          "1594392921984-0": {
-            "type": "html",
-            "settings": {
-              "code": "<div id=\"main-whys\" class=\"full-width flex-even why-shop\">\n\t<span class=\"whys-ship\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0021\/7120\/7759\/t\/35\/assets\/icon-whys-ship.png\"><strong>Free Ground Shipping<\/strong>We offer free U.S. continental shipping on thousands of items.<\/span>\n\t<span class=\"whys-retu\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0021\/7120\/7759\/t\/35\/assets\/icon-whys-retu.png\"><strong>Easy Returns<\/strong>If an item doesn't fit, return it easily and get your money back.<\/span>\n\t<span class=\"whys-pymt\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0021\/7120\/7759\/t\/35\/assets\/icon-whys-pymt.png\"><strong>Secure Payments<\/strong>Industry-leading fraud prevention tools protect you &amp; your purchase.<\/span>\n\t<span class=\"whys-expe\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0021\/7120\/7759\/t\/35\/assets\/icon-whys-expe.png\"><strong>Great Shopping Experience<\/strong>Voted \"Best Rated Company\" in the industry by the NPA.<\/span>\n<\/div>",
-              "width": "100%",
-              "alignment": "top-middle"
-            }
-          }
-        },
-        "block_order": [
-          "1594392921984-0"
-        ],
-        "settings": {
-        }
-      },
-      "1594571486527": {
-        "type": "advanced-content",
-        "blocks": {
-          "1594571486527-0": {
-            "type": "html",
-            "settings": {
-              "code": "<h2>Shop by Brand<\/h2>\n<div id=\"feat-brnd\" class=\"cw ns flex-even\">\n\t\n\t\n\t<a href=\"\/collections\/arai\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0021\/7120\/7759\/t\/48\/assets\/brnd-logo-arai.png\" alt=\"Shop by Brand Arai\"><\/a>\n\t<a href=\"\/collections\/asv-inventions\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0021\/7120\/7759\/t\/48\/assets\/brnd-logo-asvi.png\" alt=\"Shop by Brand ASV Inventions\"><\/a>\n\t<a href=\"\/collections\/big-gun-exhaust\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0021\/7120\/7759\/t\/48\/assets\/brnd-logo-bigg.png\" alt=\"Shop by Brand Big Gun Exhaust\"><\/a>\n\t<a href=\"\/collections\/dragonfire-racing\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0021\/7120\/7759\/t\/48\/assets\/brnd-logo-drag.png\" alt=\"Shop by Brand DragonFire Racing\"><\/a>\n\t\n\t\n\t<a href=\"\/collections\/fmf\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0021\/7120\/7759\/t\/48\/assets\/brnd-logo-fmf.png\" alt=\"Shop by Brand FMF\"><\/a>\n\t<a href=\"\/collections\/hmf-racing\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0021\/7120\/7759\/t\/48\/assets\/brnd-logo-hmf.png\" alt=\"Shop by Brand HMF Racing\"><\/a>\n\t<a href=\"\/collections\/itp-tires\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0021\/7120\/7759\/t\/48\/assets\/brnd-logo-itp.png\" alt=\"Shop by Brand ITP Tires\"><\/a>\n\t<a href=\"\/collections\/kfi\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0021\/7120\/7759\/t\/48\/assets\/brnd-logo-kfiw.png\" alt=\"Shop by Brand KFI Winch\"><\/a>\n\t\n\t\n\t<a href=\"\/collections\/seizmik\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0021\/7120\/7759\/t\/48\/assets\/brnd-logo-seiz.png\" alt=\"Shop by Brand Seizmik\"><\/a>\n\t<a href=\"\/collections\/spi-sports-parts\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0021\/7120\/7759\/t\/48\/assets\/brnd-logo-spi.png\" alt=\"Shop by Brand SPI\"><\/a>\n\t\n\t<!-- <a href=\"\/collections\/ssv-works\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0021\/7120\/7759\/t\/48\/assets\/brnd-logo-ssvw.png\" alt=\"Shop by Brand SSV Works\"><\/a> -->\n\t<a href=\"\/collections\/vp-racing\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0021\/7120\/7759\/t\/48\/assets\/brnd-logo-vpra.png\" alt=\"Shop by Brand VP Racing Fuels\"><\/a>\n\t\n\t\n\t<a href=\"\/pages\/our-brands\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0021\/7120\/7759\/t\/48\/assets\/brnd-logo-zall.png\" alt=\"Shop by Brand All\"><\/a>\n<\/div>",
-              "width": "100%",
-              "alignment": "top-middle"
-            }
-          }
-        },
-        "block_order": [
-          "1594571486527-0"
-        ],
-        "settings": {
-        }
-      },
-      "1594652480767": {
-        "type": "advanced-content",
-        "blocks": {
-          "1594652480767-0": {
-            "type": "html",
-            "settings": {
-              "code": "<div id=\"mili-resp\" class=\"full-width flex-even\">\n\t<div class=\"resp-box resp-left\">\n\t<a href=\"\/pages\/govx-id-military-discount\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0021\/7120\/7759\/t\/48\/assets\/resp-01.jpg\" alt=\"Savings for Those Who Serve\"><\/a>\t\n\t<\/div>\n\t<div class=\"resp-box resp-right\"><a href=\"\/pages\/collaboration\" target=\"_blank\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0021\/7120\/7759\/files\/collab_homepage_1.jpg?v=1614202475\" alt=\"Collaborate with us\"><\/a><\/div>\n<\/div>",
-              "width": "100%",
-              "alignment": "center"
-            }
-          }
-        },
-        "block_order": [
-          "1594652480767-0"
-        ],
-        "settings": {
-        }
-      },
-      "1594661446745": {
-        "type": "advanced-content",
-        "blocks": {
-          "1594661446745-0": {
-            "type": "html",
-            "settings": {
-              "code": "<h2 class=\"alt\">About Lionparts.com<\/h2>\n<div id=\"about-us\" class=\"cw ns\">\n\t<div class=\"text-box\">\n\t\t<h4>WHO IS LIONPARTS?<\/h4>\n\t\t<p>Quite simply, we are the premier power sports and accessories online retailer in the United States.<\/p>\n\t\t<p>We are driven by quality, fueled by knowledge and customer service.<\/p>\n\t\t<a href=\"\/pages\/about-us\">read more »<\/a>\n\t<\/div>\n<\/div>",
-              "width": "50%",
-              "alignment": "top-middle"
-            }
-          },
-          "4a121a89-4145-4db6-bd3e-c401cd873cef": {
-            "type": "html",
-            "settings": {
-              "code": "<h2 class=\"alt\">Follow us<\/h2> <center>\n<a href=\"https:\/\/www.facebook.com\/LionpartsPowersports\/\" target=\"_blank\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0021\/7120\/7759\/files\/fb.png?v=1615571738\" width=\"75\" height=\"75\" style=\"margin: 15px 15px 15px 15px;\"> <\/a>\n\n<a href=\"https:\/\/www.instagram.com\/lionpartspowersports\" target=\"_blank\"> <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0021\/7120\/7759\/files\/insta.png?v=1615571738\" width=\"75\" height=\"75\" style=\"margin: 15px 15px 15px 15px;\"><\/a>\n\n<a href=\"https:\/\/www.youtube.com\/channel\/UCNW_YouV0nvtxNn0kPV5x0g\" target=\"_blank\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0021\/7120\/7759\/files\/yt.png?v=1615571738\" width=\"75\" height=\"75\" border=\"0\" style=\"margin: 15px 15px 15px 15px;\"><\/a>\n\n<a href=\"https:\/\/www.linkedin.com\/company\/lionparts\" target=\"_blank\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0021\/7120\/7759\/files\/lkn.png?v=1615578189\" width=\"75\" height=\"75\" style=\"margin: 15px 15px 15px 15px;\"><\/a>\n\n<a href=\"https:\/\/www.pinterest.ca\/Lionpartspowersports\/\" target=\"_blank\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0021\/7120\/7759\/files\/5282545_pin_pinterest_inspiration_pinterest_logo_icon_afae3320-340c-4a70-b701-881e329721a6.png?v=1637596403\" width=\"75\" height=\"75\" style=\"margin: 15px 15px 15px 15px;\"><\/a>\n\n<\/center>",
-              "width": "50%",
-              "alignment": "top-middle"
-            }
-          }
-        },
-        "block_order": [
-          "1594661446745-0",
-          "4a121a89-4145-4db6-bd3e-c401cd873cef"
-        ],
-        "settings": {
-        }
-      },
-      "product-template": {
-        "type": "product-template",
-        "settings": {
-          "product_image_zoom_enable": false,
-          "product_quantity_enable": true,
-          "product_quantity_message": false,
-          "product_incoming_message": false,
-          "product_vendor_enable": true,
-          "product_show_saved_amount": true,
-          "product_show_compare_at_price": false,
-          "related_products_enable": false,
-          "enable_payment_button": false,
-          "social_sharing_products": true,
-          "product_reviews_enable": false,
-          "add_to_cart_button_size": "small"
-        }
-      },
-      "collection-template": {
-        "type": "collection-template",
-        "settings": {
-          "grid": "4",
-          "rows": "6",
-          "collection_sidebar_filters": "groups",
-          "product_show_compare_at_price": true,
-          "product_show_saved_amount": true,
-          "product_reviews_enable": false,
-          "enable_sidebar": true
-        }
-      },
-      "list-collections-template": {
-        "type": "list-collections-template",
-        "settings": {
-          "display_type": "all",
-          "layout": "grid",
-          "sort": "alphabetical",
-          "grid": "3"
-        }
-      },
-      "16129009836041e31b": {
-        "type": "advanced-content",
-        "blocks": {
-          "16129009836041e31b-0": {
-            "type": "html",
-            "settings": {
-              "code": "<h2>Shop by Category<\/h2>\n<div id=\"feat-brnd\" class=\"cw ns flex-even\">\n\t<a href=\"\/collections\/helmets\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0021\/7120\/7759\/files\/CatHELMET.jpg?v=1630427870\" alt=\"Shop by Category Helmets\"><\/a>\n\t<a href=\"\/collections\/riding-gear\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0021\/7120\/7759\/files\/CatGEAR.jpg?v=1630427870\" alt=\"Shop by Category Riding Gear\"><\/a>\n\t<a href=\"\/collections\/tires-and-wheels\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0021\/7120\/7759\/files\/CatTIRESWHEELS.jpg?v=1630427870\" alt=\"Shop by Category Tires and Wheels\"><\/a>\n\t<a href=\"\/collections\/stereo-speakers-audio\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0021\/7120\/7759\/files\/CatAUDIO.jpg?v=1630427870\" alt=\"Shop by Category Audio\"><\/a>\n\t\n\t<a href=\"\/collections\/atv-utv-bumpers\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0021\/7120\/7759\/files\/CatBUMPER.jpg?v=1630427870\" alt=\"Shop by Category Bumpers\"><\/a>\n\t<a href=\"\/collections\/atv-utv-winch-kits\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0021\/7120\/7759\/files\/CatWINCH.jpg?v=1630427870\" alt=\"Shop by Category Winches\"><\/a>\n\t\n\t<a href=\"\/collections\/exhaust-parts\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0021\/7120\/7759\/files\/CatEXHAUST.jpg?v=1630427870\" alt=\"Shop by Category Exhausts\"><\/a>\n\t<a href=\"\/collections\/lighting\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0021\/7120\/7759\/files\/CatLIGHTING.jpg?v=1630427870\" alt=\"Shop by Category Lighting\"><\/a>\n\t<a href=\"\/collections\/everything-chrome\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0021\/7120\/7759\/files\/CatCHROME.jpg?v=1630427870\" alt=\"Shop by Category Everything Chrome\"><\/a>\n\t<a href=\"\/collections\/doors-windshields\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0021\/7120\/7759\/files\/CatDOORS.jpg?v=1630427870\" alt=\"Shop by Category Doors &amp; Windshileds\"><\/a>\n\t<a href=\"\/collections\/cab-enclosures-heaters\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0021\/7120\/7759\/files\/CatHEATER.jpg?v=1630427870\" alt=\"Shop by Category Can Enclosures &amp; Heaters\"><\/a>\n\t<a href=\"\/collections\/all\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0021\/7120\/7759\/files\/CatALL.jpg?v=1630427870\" alt=\"Shop by Category See ALL\"><\/a>\n\n<\/div>",
-              "width": "100%",
-              "alignment": "top-middle"
-            }
-          }
-        },
-        "block_order": [
-          "16129009836041e31b-0"
-        ],
-        "settings": {
-        }
-      },
-      "161540978967f42336": {
-        "type": "advanced-content",
-        "blocks": {
-          "d3364c75-a02a-45f9-b05c-a864ce784211": {
-            "type": "html",
-            "settings": {
-              "code": "<div style=\"text-align:center;\">\n<h2>Trailstrike Mirrors <\/h2>\n<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 500; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }<\/style>\n<div class=\"embed-container\"><iframe width=\"1280\" height=\"720\" src=\"https:\/\/www.youtube.com\/embed\/dtFBq8wqj64\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe><\/div>\n<\/div>",
-              "width": "50%",
-              "alignment": "top-middle"
-            }
-          },
-          "052bb062-5205-4744-8732-0df8b61f2ff7": {
-            "type": "html",
-            "settings": {
-              "code": "<div style=\"text-align:center;\">\n<h2>Part Request<\/h2>\n\n<a href=\"\/pages\/part-request\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0021\/7120\/7759\/files\/part_search_home.jpg?v=1626979378\" alt=\"Part Request\"><\/a>\t\n\t<\/div>",
-              "width": "50%",
-              "alignment": "top-middle"
-            }
-          }
-        },
-        "block_order": [
-          "d3364c75-a02a-45f9-b05c-a864ce784211",
-          "052bb062-5205-4744-8732-0df8b61f2ff7"
-        ],
-        "settings": {
-        }
-      },
-      "1615474749cb5fb3bc": {
-        "type": "advanced-content",
-        "blocks": {
-          "1615474749cb5fb3bc-0": {
-            "type": "html",
-            "settings": {
-              "code": "<div class=\"reputon-google-reviews-widget\" id=\"e54b7940-340d-11eb-879a-8f810ba6fc71\"><\/div>",
-              "width": "100%",
-              "alignment": "top-middle"
-            }
-          }
-        },
-        "block_order": [
-          "1615474749cb5fb3bc-0"
-        ],
-        "settings": {
-        }
-      },
-      "162281489708df151c": {
-        "type": "advanced-content",
-        "blocks": {
-          "162281489708df151c-0": {
-            "type": "html",
-            "settings": {
-              "code": "<div style=\"min-height: 100px;\" class=\"shopperapproved_widget sa_rotate sa_count4 sa_horizontal sa_bgWhite sa_colorBlack sa_borderGray sa_rounded sa_jMy sa_fixed sa_showlinks sa_large sa_showdate \"><\/div><script type=\"text\/javascript\">var sa_interval = 5000;function saLoadScript(src) { var js = window.document.createElement('script'); js.src = src; js.type = 'text\/javascript'; document.getElementsByTagName(\"head\")[0].appendChild(js); } if (typeof(shopper_first) == 'undefined') saLoadScript('https:\/\/www.shopperapproved.com\/widgets\/testimonial\/3.0\/33986.js'); shopper_first = true; <\/script><div style=\"text-align:right;\"><a aria-label=\"lionparts.com certificate URL\" title=\"Reviews\" class=\"sa_footer\" href=\"https:\/\/www.shopperapproved.com\/reviews\/lionparts.com\/\" target=\"_blank\" rel=\"nofollow\"><img class=\"sa_widget_footer\" style=\"border: 0;\" alt=\"lionparts.com widget logo\" src=\"https:\/\/www.shopperapproved.com\/widgets\/widgetfooter-whitelogo.png\"><\/a><\/div>\n\n<script type=\"text\/javascript\">\njQuery( document ).ready(function($) {\n    setTimeout(function(){\n        $(window).resize(function () {\n        initsaJQWidget3();\n        });\n    }, 500);\n});\n<\/script>\n<style>\n.shopperapproved_widget.sa_rotate table, .shopperapproved_widget.sa_rotate table td{\nborder: 0px;\n}\n<\/style>",
-              "width": "100%",
-              "alignment": "top-middle"
-            }
-          }
-        },
-        "block_order": [
-          "162281489708df151c-0"
-        ],
-        "settings": {
-        }
-      }
-    },
-    "content_for_index": [
-      "slideshow",
-      "1594390608853",
-      "16129009836041e31b",
-      "1594392921984",
-      "1594571486527",
-      "162281489708df151c",
-      "1615474749cb5fb3bc",
-      "161540978967f42336",
-      "1594652480767",
-      "1594661446745"
-    ],
     "blocks": {
       "1769432491457353334": {
         "type": "shopify:\/\/apps\/lionparts-cashback-by-fondue\/blocks\/caseback-embed\/3356c633-49c6-4696-8873-04abe67c0705",
@@ -769,6 +436,148 @@
         "slideshow-2",
         "featured-content"
       ]
-    }
+    },
+    "Default": {
+      "logo_width": 90,
+      "colors_solid_button_labels": "#ffffff",
+      "colors_accent_1": "#121212",
+      "gradient_accent_1": "",
+      "colors_accent_2": "#334fb4",
+      "gradient_accent_2": "",
+      "colors_text": "#121212",
+      "colors_outline_button_labels": "#121212",
+      "colors_background_1": "#ffffff",
+      "gradient_background_1": "",
+      "colors_background_2": "#f3f3f3",
+      "gradient_background_2": "",
+      "type_header_font": "assistant_n4",
+      "heading_scale": 100,
+      "type_body_font": "assistant_n4",
+      "body_scale": 100,
+      "page_width": 1200,
+      "spacing_sections": 0,
+      "spacing_grid_horizontal": 8,
+      "spacing_grid_vertical": 8,
+      "buttons_border_thickness": 1,
+      "buttons_border_opacity": 100,
+      "buttons_radius": 0,
+      "buttons_shadow_opacity": 0,
+      "buttons_shadow_horizontal_offset": 0,
+      "buttons_shadow_vertical_offset": 4,
+      "buttons_shadow_blur": 5,
+      "variant_pills_border_thickness": 1,
+      "variant_pills_border_opacity": 55,
+      "variant_pills_radius": 40,
+      "variant_pills_shadow_opacity": 0,
+      "variant_pills_shadow_horizontal_offset": 0,
+      "variant_pills_shadow_vertical_offset": 4,
+      "variant_pills_shadow_blur": 5,
+      "inputs_border_thickness": 1,
+      "inputs_border_opacity": 55,
+      "inputs_radius": 0,
+      "inputs_shadow_opacity": 0,
+      "inputs_shadow_horizontal_offset": 0,
+      "inputs_shadow_vertical_offset": 4,
+      "inputs_shadow_blur": 5,
+      "card_style": "standard",
+      "card_image_padding": 0,
+      "card_text_alignment": "left",
+      "card_color_scheme": "background-2",
+      "card_border_thickness": 0,
+      "card_border_opacity": 10,
+      "card_corner_radius": 0,
+      "card_shadow_opacity": 0,
+      "card_shadow_horizontal_offset": 0,
+      "card_shadow_vertical_offset": 4,
+      "card_shadow_blur": 5,
+      "collection_card_style": "standard",
+      "collection_card_image_padding": 0,
+      "collection_card_text_alignment": "left",
+      "collection_card_color_scheme": "background-2",
+      "collection_card_border_thickness": 0,
+      "collection_card_border_opacity": 10,
+      "collection_card_corner_radius": 0,
+      "collection_card_shadow_opacity": 0,
+      "collection_card_shadow_horizontal_offset": 0,
+      "collection_card_shadow_vertical_offset": 4,
+      "collection_card_shadow_blur": 5,
+      "blog_card_style": "standard",
+      "blog_card_image_padding": 0,
+      "blog_card_text_alignment": "left",
+      "blog_card_color_scheme": "background-2",
+      "blog_card_border_thickness": 0,
+      "blog_card_border_opacity": 10,
+      "blog_card_corner_radius": 0,
+      "blog_card_shadow_opacity": 0,
+      "blog_card_shadow_horizontal_offset": 0,
+      "blog_card_shadow_vertical_offset": 4,
+      "blog_card_shadow_blur": 5,
+      "text_boxes_border_thickness": 0,
+      "text_boxes_border_opacity": 10,
+      "text_boxes_radius": 0,
+      "text_boxes_shadow_opacity": 0,
+      "text_boxes_shadow_horizontal_offset": 0,
+      "text_boxes_shadow_vertical_offset": 4,
+      "text_boxes_shadow_blur": 5,
+      "media_border_thickness": 1,
+      "media_border_opacity": 5,
+      "media_radius": 0,
+      "media_shadow_opacity": 0,
+      "media_shadow_horizontal_offset": 0,
+      "media_shadow_vertical_offset": 4,
+      "media_shadow_blur": 5,
+      "popup_border_thickness": 1,
+      "popup_border_opacity": 10,
+      "popup_corner_radius": 0,
+      "popup_shadow_opacity": 0,
+      "popup_shadow_horizontal_offset": 0,
+      "popup_shadow_vertical_offset": 4,
+      "popup_shadow_blur": 5,
+      "drawer_border_thickness": 1,
+      "drawer_border_opacity": 10,
+      "drawer_shadow_opacity": 0,
+      "drawer_shadow_horizontal_offset": 0,
+      "drawer_shadow_vertical_offset": 4,
+      "drawer_shadow_blur": 5,
+      "badge_position": "bottom left",
+      "badge_corner_radius": 40,
+      "sale_badge_color_scheme": "accent-2",
+      "sold_out_badge_color_scheme": "inverse",
+      "accent_icons": "text",
+      "brand_headline": "",
+      "brand_description": "<p></p>",
+      "brand_image_width": 100,
+      "social_twitter_link": "",
+      "social_facebook_link": "",
+      "social_pinterest_link": "",
+      "social_instagram_link": "",
+      "social_tiktok_link": "",
+      "social_tumblr_link": "",
+      "social_snapchat_link": "",
+      "social_youtube_link": "",
+      "social_vimeo_link": "",
+      "predictive_search_enabled": true,
+      "predictive_search_show_vendor": false,
+      "predictive_search_show_price": false,
+      "currency_code_enabled": true,
+      "cart_type": "notification",
+      "show_vendor": false,
+      "show_cart_note": false,
+      "cart_drawer_collection": "",
+      "sections": {
+          "main-password-header": {
+              "type": "main-password-header",
+              "settings": {
+                  "color_scheme": "background-1"
+              }
+          },
+          "main-password-footer": {
+              "type": "main-password-footer",
+              "settings": {
+                  "color_scheme": "background-1"
+              }
+          }
+      }
+  }
   }
 }
