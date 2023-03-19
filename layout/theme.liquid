@@ -83,7 +83,7 @@ head.appendChild(script);
   {{ 'custom.css' | asset_url | stylesheet_tag }}
 
   <!-- Header hook for plugins ================================================== -->
-  {% render 'header-scripts.zipifypages', renderctx: 'thm' %}{{ content_for_header }}
+  {{ content_for_header }}
 
   {% comment %}
     If you store has customers disabled, you can remove the following JS file
@@ -339,7 +339,7 @@ h.appendChild(s);
 
   
 {% include 'fresh-credit' %}
- {% render 'page-footer.zipifypages', renderctx: 'thm', ocuapp: ocuapp %}
+ 
     {% if product %}
 <script type="text/javascript">
 var _learnq = _learnq || [];
