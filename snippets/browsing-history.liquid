@@ -1,0 +1,190 @@
+
+<!-- Ajax API -->
+{{ '//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js' | script_tag }}
+{{ 'api.jquery.js' | shopify_asset_url | script_tag }}
+
+
+
+{% comment %}
+  Number of related items per row,
+  and number of rows.
+{% endcomment %}
+
+{% assign number_of_related_products_per_row = 4 %}
+{% assign number_of_rows = 1 %}
+
+{% comment %}
+{% assign found_a_collection = false %}
+{% if collection and collection.all_products_count > 1 %}
+  {% unless exclusions contains collection.handle %}
+    {% assign found_a_collection = true %}
+  {% endunless %}
+{% endif %}
+{% endcomment %}
+
+
+{% assign found_a_collection = true %}
+
+{% if found_a_collection %}
+
+  {% assign counter = 0 %}
+  {% assign break_at = number_of_rows | times: number_of_related_products_per_row %}
+  {% assign current_product = product %}
+  
+  {% case number_of_related_products_per_row %}
+    {% when '1' %}
+      {% assign grid_item_width = '' %}
+	  {% assign max_products = '4' %}
+    {% when '2' %}
+      {% assign grid_item_width = 'medium-up--one-half large-up--one-half' %}
+	  {% assign max_products = '4' %}
+    {% when '3' %}
+      {% assign grid_item_width = 'medium-up--one-half large-up--one-third' %}
+	  {% assign max_products = '6' %}
+    {% when '4' %}
+      {% assign grid_item_width = 'small--one-half medium-up--one-quarter' %}
+	  {% assign max_products = '8' %}
+    {% when '5' %}
+      {% assign grid_item_width = 'small--one-half medium-up--one-fifth' %}
+	  {% assign max_products = '10' %}
+    {% when '6' %}
+      {% assign grid_item_width = 'small--one-half medium-up--one-third large-up--one-sixth' %}
+	  {% assign max_products = '12' %}
+    {% else %}
+      {% assign grid_item_width = 'medium--one-third large--one-quarter' %}
+	  {% assign max_products = '12' %}
+  {% endcase %}
+
+{% endif %}
+
+
+
+<div class="product-template__container background-body" id="browsing_history__container">
+  <div id="browsing_history" class="page-width">
+	<h2>Recently Viewed</h2>
+    <div class="grid">
+      <div class="grid__item">
+        <div class="grid grid-uniform" id="#browsing-history_products"></div>
+        <div id="browsing-history__spinner"><img src="{{ 'loader_black.svg' | asset_url }}" alt="Loading..." /></div>         
+      </div>
+    </div>
+  </div>
+</div>
+
+{% comment %}
+Recently Viewed Labs Snippet, included on the products page.
+{% endcomment %}
+
+<script type="text/javascript">
+  var Spinner;
+  if(Spinner == undefined){
+    $("head").append($("<script />",{src: "//cdnjs.cloudflare.com/ajax/libs/spin.js/2.3.2/spin.min.js"}));
+    setTimeout(function(){
+      var spinner = new Spinner({top: "50%", scale: 0.5}).spin( document.getElementById('browsing-history__spinner'))
+      }, 450);
+  }
+  if(jQuery == undefined){
+    $("head").append($("<script />",{src: "//code.jquery.com/jquery-2.1.4.min.js"}));
+  }
+  if(jQuery.cookie == undefined){
+    $("head").append($("<script />",{src: "//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"}));
+  }
+  var pHandle  
+  {% if product %}
+  pHandle = "{{product.handle}}";
+  {% endif %}
+  var pLimit   = 4; 
+  pLimit       = {{ max_products }};
+  var pPointer = 0;
+  jQuery(function($){
+    // Gives the assets enough time to load.
+    setTimeout(function(){
+      if(jQuery.cookie('browsing_history') == undefined){
+        if(pHandle){
+          jQuery.cookie('browsing_history', "{{product.handle}}", {expires: 365, path: "/"});
+                        }
+                        }
+                        var currentProducts = [];
+                        if(jQuery.cookie('browsing_history') != undefined){
+            currentProducts = jQuery.cookie('browsing_history').split(",");	
+          }
+          if(currentProducts.length > 0){$('#_rvp').show()}
+          // set the current product
+          // If its not already listed
+          if(currentProducts.indexOf(pHandle) == -1){
+            // If we are at the limit move it to the front
+            if(currentProducts.length >= pLimit){
+              currentProducts.unshift; // remove very last item
+            }
+            currentProducts.push(pHandle); // add this one
+          }
+          // prevent cookie override.
+          if(currentProducts.length > 0){
+            jQuery.cookie('browsing_history', currentProducts.join(","), {expires: 365, path: "/"});	
+          }
+          
+//           if(currentProducts.length == 0) {
+//           	$("#browsing_history.page-width>.grid>.grid__item>header").hide();
+//           }
+
+          $("#browsing-history__spinner").hide();
+          $("#browsing-history__title").show();
+          $.each(currentProducts.reverse(), function(i,e){
+            if(pPointer >= pLimit || e == ''){
+              return false;
+            }else{
+              pPointer += 1;
+              Shopify.getProduct(e, function(product){	
+
+                // we now have the product
+                // Asigning variables that match product container
+                
+                var productContainer = $("<div />",{class: "grid__item grid-item large--one-fifth medium--one-third small--one-half }}"});
+                var productBox = $("<div />",{class: "product-wrapper"});
+                var productCard = $("<a />",{class: "product-card product-grid-item", title: product.title, href: product.url});  
+
+                var productCardImgContainer = $("<div />",{class: "product-card__image-container"});
+                var productCardImgWrapper = $("<div />",{class: "product-card__image-wrapper"});  
+                var productCardImg = $("<div />",{class: "product-card__image js"});
+                var productCardImgDiv = $("<div />",{style: "padding-top:100%;"});  
+                var pImage = $("<img />",{class: "lazyautosizes lazyloaded", src: product.featured_image});
+
+                var productCardInfo = $("<div />",{class: "product-card__info"});
+                var pVendor = $("<div />", {class: "product-card__brand ", html: product.vendor});
+                var pTitle = $("<div />", {class: "product-card__name", html: product.title});
+                var pPriceWrapper = $("<div />",{class: "product-card__price"});
+                var pPrice = $("<span />",{class: "", html: Shopify.formatMoney(product.price)});
+                
+                var productCardOverlay = $("<div />",{class: "product-card__overlay"});
+
+                // Append elements to parents
+
+                productCardImgDiv.append(pImage);
+                productCardImg.append(productCardImgDiv);
+                productCardImgWrapper.append(productCardImg);
+                productCardImgContainer.append(productCardImgWrapper);
+
+                pPriceWrapper.append(pPrice);
+                
+                productCardInfo.append(pVendor);
+                productCardInfo.append(pTitle)
+                productCardInfo.append(pPriceWrapper);
+
+                productCard.append(productCardImgContainer);
+                productCard.append(productCardInfo);
+				productCard.append(productCardOverlay);
+
+                productBox.append(productCard);
+                productContainer.append(productBox);
+
+//                 $("#browsing_history.rv__grid>.rv__row:last").append(productContainer);
+
+                $("#browsing_history.page-width>.grid>.grid__item>.grid:last").append(productContainer);
+
+                $("#browsing_history.rv__grid").append("<div class='rv__clearfix'></div>");
+              });
+            }	
+          });
+        }, 850);
+      });
+</script>

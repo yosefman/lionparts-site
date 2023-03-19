@@ -1,0 +1,66 @@
+{% assign counter = 0 %}
+{% for vendor in shop.vendors %}
+{% assign counter = counter | plus: 1 %}
+{% endfor %}
+
+{% assign counter_divided_by_3 = counter | divided_by: 3 | floor %}
+
+<div class="page-width">
+  <h1 class="small--text-center">{{ page.title }}</h1>
+ {% if page.content != blank %}
+  <div class="content-block">
+    <div class="rte rte--indented-images">
+      {{ page.content }}
+    </div>
+  </div>
+ {% endif %}
+  
+<ul class="vendor-list grid grid--no-gutters grid--uniform collection">
+{% for product_vendor in shop.vendors %}
+  {% assign its_a_match = false %}
+  {% capture my_collection_handle %}
+  	{{ product_vendor | handleize | strip | escape  }}
+  {% endcapture %}
+{% assign my_collection_handle_stripped = my_collection_handle | strip | escape %}
+
+{% for collection in collections %}
+  {% if my_collection_handle_stripped == collection.handle %}
+  	{% assign its_a_match = true %}
+  {% endif %}
+  
+{% endfor %}
+
+
+<li class="vendor-list-item grid__item small--one-half medium-up--one-fifth">
+  {% if its_a_match %} 
+    <a href="/collections/{{ product_vendor | handleize }}" class="featured-card" style="padding-top: 96px; padding-bottom: 96px;">
+      <div class="featured-card__header">
+        <p class="h1 featured-card__title">{{ product_vendor }}</p>
+        <p class="featured-card__action">view all &raquo;</p>
+      </div>
+    </a> 
+  {% else %}
+  {% comment %} removed | handleize from below link to make it work for vendors with spaces{% endcomment %}
+    <a href="/collections/vendors?q={{ product_vendor }}" class="featured-card" style="padding-top: 96px; padding-bottom: 96px;">
+      <div class="featured-card__header">
+        <p class="h1 featured-card__title">{{ product_vendor }}</p>
+        <p class="featured-card__action">view all &raquo;</p>
+      </div>
+    </a>
+  {% endif %}
+  
+      	{% for product in collection.products limit: 4 %}
+          {% comment %}
+            Hide the last product for a better mobile view
+          {% endcomment %}
+          <div class="grid__item small--one-half medium-up--one-fifth{% if forloop.index == 4 %} small--hide{% endif %}">
+            {% include 'product-card', product: product %}
+          </div>
+  		{% endfor %}
+   
+</li>
+
+{% endfor %}
+</ul>
+
+</div>
