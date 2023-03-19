@@ -10,7 +10,7 @@
     },
     "404": {
       "title": "404 Side ikke fundet",
-      "subtext_html": "Den ønskede side findes ikke. Klik <a href=\"{{ link }}\">her</a> for at fortsætte med at handle."
+      "subtext_html": "Den ønskede side findes ikke. Klik <a href=\"{{ link }}\">her<\/a> for at fortsætte med at handle."
     },
     "password_page": {
       "spread_the_word": "Fortæl om det:",
@@ -20,7 +20,7 @@
       "login_form_submit": "Tilgå",
       "signup_form_email_label": "E-mail",
       "signup_form_success": "Vi sender en e-mail til dig, lige inden vi åbner.",
-      "admin_link_html": "Ejer du butikken? <a href=\"/admin\" class=\"text-link\">Log ind her</a>",
+      "admin_link_html": "Ejer du butikken? <a href=\"\/admin\" class=\"text-link\">Log ind her<\/a>",
       "password_link": "Brug adgangskode for at få adgang",
       "powered_by_shopify_html": "Denne butik vil blive drevet af {{ shopify }}",
       "close": "Luk"
@@ -30,7 +30,7 @@
       "home_link_title": "Tilbage til forsiden"
     },
     "forms": {
-      "post_field_error_html": "The <strong>{{ field }}</strong> {{ error }}"
+      "post_field_error_html": "The <strong>{{ field }}<\/strong> {{ error }}"
     },
     "search": {
       "no_results_html": "Din søgning for \"{{ terms }}\" gav ingen resultater.",
@@ -93,15 +93,15 @@
       "checkout": "Betaling",
       "empty": "Din indkøbskurv er tom.",
       "cookies_required": "Du skal aktivere cookies for at kunne bruge indkøbskurven",
-      "continue_browsing_html": "Fortsæt med at browse <a href=\"{{ link }}\">her</a>.",
+      "continue_browsing_html": "Fortsæt med at browse <a href=\"{{ link }}\">her<\/a>.",
       "or": "eller",
       "view_cart": "Se indkøbskurv",
       "close_cart": "Luk indkøbskurv",
       "savings_html": "Du sparer {{ price }}",
       "taxes_and_shipping_at_checkout": "Skatter og levering beregnes ved betaling",
-      "taxes_and_shipping_policy_at_checkout_html": "Skatter og <a href=\"{{ link }}\">levering</a> beregnes ved betaling",
+      "taxes_and_shipping_policy_at_checkout_html": "Skatter og <a href=\"{{ link }}\">levering<\/a> beregnes ved betaling",
       "taxes_included_but_shipping_at_checkout": "Inklusive skat. Levering beregnes ved betaling",
-      "taxes_included_and_shipping_policy_html": "Inklusive skatter. <a href=\"{{ link }}\">Levering</a> beregnes ved betaling."
+      "taxes_included_and_shipping_policy_html": "Inklusive skatter. <a href=\"{{ link }}\">Levering<\/a> beregnes ved betaling."
     }
   },
   "collections": {
@@ -161,7 +161,7 @@
       "address1": "Adresse 1",
       "address2": "Adresse 2",
       "city": "By",
-      "country": "Land/område",
+      "country": "Land\/område",
       "province": "Landsdel",
       "zip": "Postnummer",
       "phone": "Telefon",
@@ -244,7 +244,7 @@
     "featured_collections": {
       "heading": "Køb",
       "more_categories": "Flere kategorier",
-      "no_collections_html": "Du har ingen kollektioner, der kan vises her. <a href=\"/admin/themes/\">Tilføj nogle udvalgte kollektioner</a> i dine temaindstillinger.",
+      "no_collections_html": "Du har ingen kollektioner, der kan vises her. <a href=\"\/admin\/themes\/\">Tilføj nogle udvalgte kollektioner<\/a> i dine temaindstillinger.",
       "example_collection": "Eksempel på kollektion"
     },
     "featured_collection_rows": {
@@ -294,7 +294,7 @@
     "errors": {
       "address_error": "Der opstod en fejl under forsøg på at finde adressen",
       "address_no_results": "Ingen resultater for den adresse",
-      "address_query_limit_html": "Du har overskredet Googles API-brugerbegrænsning. Overvej at opgradere til et <a href=\"https://developers.google.com/maps/premium/usage-limits\">Premium-abonnement</a>.",
+      "address_query_limit_html": "Du har overskredet Googles API-brugerbegrænsning. Overvej at opgradere til et <a href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\">Premium-abonnement<\/a>.",
       "auth_error_html": "Der opstod en fejl under bekræftelse af din Google Maps API-nøgle."
     }
   },
@@ -305,7 +305,7 @@
       "sale_price": "Udsalgspris",
       "regular_price": "Normalpris",
       "include_taxes": "Inklusive moms.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Levering</a> beregnes ved betaling."
+      "shipping_policy_html": "<a href=\"{{ link }}\">Levering<\/a> beregnes ved betaling."
     },
     "product": {
       "sold_out": "Udsolgt",

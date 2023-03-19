@@ -10,7 +10,7 @@
     },
     "404": {
       "title": "404 Side Ikke Funnet",
-      "subtext_html": "Siden du forespurte eksisterer ikke. Klikk <a href=\"{{ link }}\">her</a> for å fortsette å handle."
+      "subtext_html": "Siden du forespurte eksisterer ikke. Klikk <a href=\"{{ link }}\">her<\/a> for å fortsette å handle."
     },
     "password_page": {
       "spread_the_word": "Spre ordet:",
@@ -20,7 +20,7 @@
       "login_form_submit": "Gå inn",
       "signup_form_email_label": "E-postadresse",
       "signup_form_success": "Vi sender deg en e-post rett før vi åpner!",
-      "admin_link_html": "Er du butikkeieren? <a href=\"/admin\" class=\"text-link\">Logg inn her</a>",
+      "admin_link_html": "Er du butikkeieren? <a href=\"\/admin\" class=\"text-link\">Logg inn her<\/a>",
       "password_link": "Gå inn ved hjelp av passord",
       "powered_by_shopify_html": "Denne butikken vil bli drevet av {{ shopify }}",
       "close": "Lukk"
@@ -30,7 +30,7 @@
       "home_link_title": "Tilbake til forsiden"
     },
     "forms": {
-      "post_field_error_html": "<strong>{{ field }}</strong> {{ error }}"
+      "post_field_error_html": "<strong>{{ field }}<\/strong> {{ error }}"
     },
     "search": {
       "no_results_html": "Søket ditt etter «{{ terms }}» ga ingen resultater.",
@@ -93,15 +93,15 @@
       "checkout": "Gå til kassen",
       "empty": "Handlekurven din er tom.",
       "cookies_required": "Aktiver informasjonskapsler for å bruke handlekurven",
-      "continue_browsing_html": "Fortsett å bla gjennom <a href=\"{{ link }}\">her</a>.",
+      "continue_browsing_html": "Fortsett å bla gjennom <a href=\"{{ link }}\">her<\/a>.",
       "or": "eller",
       "view_cart": "Vis handlekurv",
       "close_cart": "Lukk handlekurv",
       "savings_html": "Du sparer {{ price }}",
       "taxes_and_shipping_at_checkout": "Avgifter og frakt beregnes ved kassen",
-      "taxes_and_shipping_policy_at_checkout_html": "Avgifter og <a href=\"{{ link }}\">frakt </a> beregnes ved kassen",
+      "taxes_and_shipping_policy_at_checkout_html": "Avgifter og <a href=\"{{ link }}\">frakt <\/a> beregnes ved kassen",
       "taxes_included_but_shipping_at_checkout": "Avgift inkludert og frakt beregnet ved kassen",
-      "taxes_included_and_shipping_policy_html": "Avgift inkludert. <a href=\"{{ link }}\">Frakt</a> beregnes ved kassen."
+      "taxes_included_and_shipping_policy_html": "Avgift inkludert. <a href=\"{{ link }}\">Frakt<\/a> beregnes ved kassen."
     }
   },
   "collections": {
@@ -161,7 +161,7 @@
       "address1": "Adresse 1",
       "address2": "Adresse 2",
       "city": "By",
-      "country": "Land/region",
+      "country": "Land\/region",
       "province": "Provins",
       "zip": "Postnummer",
       "phone": "Telefon",
@@ -244,7 +244,7 @@
     "featured_collections": {
       "heading": "Kjøp",
       "more_categories": "Flere kategorier",
-      "no_collections_html": "Du har ingen samlinger å vise her. <a href=\"/admin/themes/\">Legg til noen utvalgte samlinger</a> i temainnstillingene.",
+      "no_collections_html": "Du har ingen samlinger å vise her. <a href=\"\/admin\/themes\/\">Legg til noen utvalgte samlinger<\/a> i temainnstillingene.",
       "example_collection": "Eksempel på samling"
     },
     "featured_collection_rows": {
@@ -294,7 +294,7 @@
     "errors": {
       "address_error": "Feil under oppslag av den adressen",
       "address_no_results": "Ingen resultater for den adressen",
-      "address_query_limit_html": "Du har overskredet bruksgrensen for Google API. Vurder å oppgradere til et <a href=\"https://developers.google.com/maps/premium/usage-limits\">Premiumsabonnement</a>.",
+      "address_query_limit_html": "Du har overskredet bruksgrensen for Google API. Vurder å oppgradere til et <a href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\">Premiumsabonnement<\/a>.",
       "auth_error_html": "Det oppsto et problem under godkjenning av Google Maps API Key."
     }
   },
@@ -305,7 +305,7 @@
       "sale_price": "Salgspris",
       "regular_price": "Vanlig pris",
       "include_taxes": "Avgift inkludert.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Frakt</a> beregnes ved kassen."
+      "shipping_policy_html": "<a href=\"{{ link }}\">Frakt<\/a> beregnes ved kassen."
     },
     "product": {
       "sold_out": "Utsolgt",

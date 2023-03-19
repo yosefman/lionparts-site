@@ -10,7 +10,7 @@
     },
     "404": {
       "title": "404 ไม่พบหน้านี้",
-      "subtext_html": "ไม่มีหน้าที่คุณร้องขอ คลิก<a href=\"{{ link }}\">ที่นี่</a>เพื่อช้อปปิ้งต่อ"
+      "subtext_html": "ไม่มีหน้าที่คุณร้องขอ คลิก<a href=\"{{ link }}\">ที่นี่<\/a>เพื่อช้อปปิ้งต่อ"
     },
     "password_page": {
       "spread_the_word": "ประกาศ:",
@@ -20,7 +20,7 @@
       "login_form_submit": "ป้อน",
       "signup_form_email_label": "อีเมล",
       "signup_form_success": "เราจะส่งอีเมลแจ้งคุณก่อนที่ร้านจะเปิด!",
-      "admin_link_html": "คุณเป็นเจ้าของร้านใช่ไหม <a href=\"/admin\" class=\"text-link\">เข้าสู่ระบบที่นี่</a>",
+      "admin_link_html": "คุณเป็นเจ้าของร้านใช่ไหม <a href=\"\/admin\" class=\"text-link\">เข้าสู่ระบบที่นี่<\/a>",
       "password_link": "เข้าโดยใช้รหัสผ่าน",
       "powered_by_shopify_html": "ร้านค้านี้จะได้รับการสนับสนุนจาก {{ shopify }}",
       "close": "ปิด"
@@ -30,7 +30,7 @@
       "home_link_title": "กลับไปยังหน้าแรก"
     },
     "forms": {
-      "post_field_error_html": "<strong>{{ field }}</strong> {{ error }}"
+      "post_field_error_html": "<strong>{{ field }}<\/strong> {{ error }}"
     },
     "search": {
       "no_results_html": "ไม่พบผลลัพธ์การค้นหาของคุณสำหรับ \"{{ terms }}\"",
@@ -93,15 +93,15 @@
       "checkout": "การชำระเงิน",
       "empty": "ตะกร้าของคุณว่างอยู่ในขณะนี้",
       "cookies_required": "เปิดใช้คุกกี้เพื่อใช้ตะกร้าสินค้า",
-      "continue_browsing_html": "เรียกดูต่อ<a href=\"{{ link }}\">ที่นี่</a>",
+      "continue_browsing_html": "เรียกดูต่อ<a href=\"{{ link }}\">ที่นี่<\/a>",
       "or": "หรือ",
       "view_cart": "ดูตะกร้าสินค้า",
       "close_cart": "ปิดตะกร้าสินค้า",
       "savings_html": "คุณจะประหยัด {{ price }}",
       "taxes_and_shipping_at_checkout": "ภาษีและค่าจัดส่งที่คิดคำนวณในระหว่างขั้นตอนการชำระเงิน",
-      "taxes_and_shipping_policy_at_checkout_html": "ภาษีและ<a href=\"{{ link }}\">ค่าจัดส่ง</a>ที่คิดคำนวณในระหว่างขั้นตอนการชำระเงิน",
+      "taxes_and_shipping_policy_at_checkout_html": "ภาษีและ<a href=\"{{ link }}\">ค่าจัดส่ง<\/a>ที่คิดคำนวณในระหว่างขั้นตอนการชำระเงิน",
       "taxes_included_but_shipping_at_checkout": "รวมภาษีและค่าจัดส่งที่คิดคำนวณในระหว่างขั้นตอนการชำระเงิน",
-      "taxes_included_and_shipping_policy_html": "รวมภาษี <a href=\"{{ link }}\">ค่าจัดส่ง</a>ที่คิดคำนวณในระหว่างขั้นตอนการชำระเงิน"
+      "taxes_included_and_shipping_policy_html": "รวมภาษี <a href=\"{{ link }}\">ค่าจัดส่ง<\/a>ที่คิดคำนวณในระหว่างขั้นตอนการชำระเงิน"
     }
   },
   "collections": {
@@ -161,7 +161,7 @@
       "address1": "ที่อยู่ 1",
       "address2": "ที่อยู่ 2",
       "city": "เมือง",
-      "country": "ประเทศ/ภูมิภาค",
+      "country": "ประเทศ\/ภูมิภาค",
       "province": "จังหวัด",
       "zip": "รหัสไปรษณีย์",
       "phone": "โทรศัพท์",
@@ -244,7 +244,7 @@
     "featured_collections": {
       "heading": "สั่งซื้อสำหรับ",
       "more_categories": "หมวดหมู่เพิ่มเติม",
-      "no_collections_html": "คุณไม่มีคอลเลกชันใดๆ ให้แสดงที่นี่ <a href=\"/admin/themes/\">เพิ่มคอลเลกชันแนะนำ</a>ลงในการตั้งค่าธีมของคุณ",
+      "no_collections_html": "คุณไม่มีคอลเลกชันใดๆ ให้แสดงที่นี่ <a href=\"\/admin\/themes\/\">เพิ่มคอลเลกชันแนะนำ<\/a>ลงในการตั้งค่าธีมของคุณ",
       "example_collection": "ตัวอย่างคอลเลกชัน"
     },
     "featured_collection_rows": {
@@ -294,7 +294,7 @@
     "errors": {
       "address_error": "เกิดข้อผิดพลาดในการค้นหาที่อยู่ดังกล่าว",
       "address_no_results": "ไม่พบผลลัพธ์สำหรับที่อยู่ดังกล่าว",
-      "address_query_limit_html": "คุณใช้ Google API ของคุณเกินขีดจำกัดการใช้งานแล้ว ลองพิจารณาอัปเกรดเป็น<a href=\"https://developers.google.com/maps/premium/usage-limits\">แผนพรีเมียม</a>",
+      "address_query_limit_html": "คุณใช้ Google API ของคุณเกินขีดจำกัดการใช้งานแล้ว ลองพิจารณาอัปเกรดเป็น<a href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\">แผนพรีเมียม<\/a>",
       "auth_error_html": "เกิดปัญหาในการยืนยันคีย์ Google Maps API ของคุณ"
     }
   },
@@ -305,7 +305,7 @@
       "sale_price": "ราคาขาย",
       "regular_price": "ราคาปกติ",
       "include_taxes": "รวมภาษี",
-      "shipping_policy_html": "<a href=\"{{ link }}\">ค่าจัดส่ง</a>ที่คิดคำนวณในระหว่างขั้นตอนการชำระเงิน"
+      "shipping_policy_html": "<a href=\"{{ link }}\">ค่าจัดส่ง<\/a>ที่คิดคำนวณในระหว่างขั้นตอนการชำระเงิน"
     },
     "product": {
       "sold_out": "ขายหมดแล้ว",

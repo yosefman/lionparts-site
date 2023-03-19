@@ -10,7 +10,7 @@
     },
     "404": {
       "title": "404 Seite nicht gefunden",
-      "subtext_html": "Die von Ihnen angeforderte Seite existiert nicht. Klicken Sie <a href=\"{{ link }}\">hier</a>, um den Einkauf fortzusetzen."
+      "subtext_html": "Die von Ihnen angeforderte Seite existiert nicht. Klicken Sie <a href=\"{{ link }}\">hier<\/a>, um den Einkauf fortzusetzen."
     },
     "password_page": {
       "spread_the_word": "Weitersagen:",
@@ -20,7 +20,7 @@
       "login_form_submit": "Betreten",
       "signup_form_email_label": "E-Mail",
       "signup_form_success": "Wir senden Ihnen eine E-Mail, kurz bevor wir eröffnen!",
-      "admin_link_html": "Sind Sie der Geschäftsinhaber? <a href=\"/admin\" class=\"text-link\">Melden Sie sich hier an</a>",
+      "admin_link_html": "Sind Sie der Geschäftsinhaber? <a href=\"\/admin\" class=\"text-link\">Melden Sie sich hier an<\/a>",
       "password_link": "Mit Passwort betreten",
       "powered_by_shopify_html": "Dieser Shop wird mit Hilfe von {{ shopify }} betrieben werden",
       "close": "Schließen (Esc)"
@@ -30,7 +30,7 @@
       "home_link_title": "Zurück zur Startseite"
     },
     "forms": {
-      "post_field_error_html": "<strong>{{ field }}</strong> {{ error }}"
+      "post_field_error_html": "<strong>{{ field }}<\/strong> {{ error }}"
     },
     "search": {
       "no_results_html": "Ihre Suche nach \"{{ terms }}\" hat keine Ergebnisse hervorgebracht.",
@@ -93,15 +93,15 @@
       "checkout": "Zur Kasse",
       "empty": "Ihr Warenkorb ist im Moment leer.",
       "cookies_required": "Aktivieren Sie Cookies, um den Warenkorb benutzen zu können",
-      "continue_browsing_html": "Mit der Suche <a href=\"{{ link }}\">hier</a> fortfahren.",
+      "continue_browsing_html": "Mit der Suche <a href=\"{{ link }}\">hier<\/a> fortfahren.",
       "or": "oder",
       "view_cart": "Warenkorb ansehen",
       "close_cart": "Warenkorb schließen",
       "savings_html": "Sie sparen {{ price }}",
       "taxes_and_shipping_at_checkout": "Steuern und Versandkosten werden beim Checkout berechnet",
-      "taxes_and_shipping_policy_at_checkout_html": "zzgl. MwSt. und <a href=\"{{ link }}\">Versandkosten</a>",
+      "taxes_and_shipping_policy_at_checkout_html": "zzgl. MwSt. und <a href=\"{{ link }}\">Versandkosten<\/a>",
       "taxes_included_but_shipping_at_checkout": "inkl. MwSt.",
-      "taxes_included_and_shipping_policy_html": "inkl. MwSt. zzgl. <a href=\"{{ link }}\">Versandkosten</a>"
+      "taxes_included_and_shipping_policy_html": "inkl. MwSt. zzgl. <a href=\"{{ link }}\">Versandkosten<\/a>"
     }
   },
   "collections": {
@@ -161,7 +161,7 @@
       "address1": "Adresse 1",
       "address2": "Adresse2",
       "city": "Stadt",
-      "country": "Land / Region",
+      "country": "Land \/ Region",
       "province": "Bundesland",
       "zip": "PLZ",
       "phone": "Telefon",
@@ -244,7 +244,7 @@
     "featured_collections": {
       "heading": "Suchen nach",
       "more_categories": "Weitere Kategorien",
-      "no_collections_html": "Sie haben keine Kategorien, die Sie hier anzeigen können. <a href=\"/admin/themes/\">Fügen Sie ein paar ausgewählte Kategorien</a> in Ihren Theme-Einstellungen hinzu.",
+      "no_collections_html": "Sie haben keine Kategorien, die Sie hier anzeigen können. <a href=\"\/admin\/themes\/\">Fügen Sie ein paar ausgewählte Kategorien<\/a> in Ihren Theme-Einstellungen hinzu.",
       "example_collection": "Beispielzusammenstellung"
     },
     "featured_collection_rows": {
@@ -294,7 +294,7 @@
     "errors": {
       "address_error": "Kann die Adresse nicht finden",
       "address_no_results": "Keine Ergebnisse für diese Adresse",
-      "address_query_limit_html": "Sie haben die Nutzungsgrenze der Google-API überschritten. Sie sollten über ein Upgrade auf einen <a href=\"https://developers.google.com/maps/premium/usage-limits\">Premium-Plan</a> nachdenken.",
+      "address_query_limit_html": "Sie haben die Nutzungsgrenze der Google-API überschritten. Sie sollten über ein Upgrade auf einen <a href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\">Premium-Plan<\/a> nachdenken.",
       "auth_error_html": "Es gab ein Problem bei Google Maps API Konto zu authentifizieren."
     }
   },
@@ -305,7 +305,7 @@
       "sale_price": "Sonderpreis",
       "regular_price": "Normaler Preis",
       "include_taxes": "inkl. MwSt.",
-      "shipping_policy_html": "zzgl. <a href=\"{{ link }}\">Versandkosten</a>"
+      "shipping_policy_html": "zzgl. <a href=\"{{ link }}\">Versandkosten<\/a>"
     },
     "product": {
       "sold_out": "Ausverkauft",

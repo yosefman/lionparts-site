@@ -10,7 +10,7 @@
     },
     "404": {
       "title": "404 Stranica nije pronađena",
-      "subtext_html": "Stranica koju si zatražio ne postoji. Klikni <a href=\"{{ link }}\">ovdje</a> da bi nastavio kupnju."
+      "subtext_html": "Stranica koju si zatražio ne postoji. Klikni <a href=\"{{ link }}\">ovdje<\/a> da bi nastavio kupnju."
     },
     "password_page": {
       "spread_the_word": "Proširite glas:",
@@ -20,7 +20,7 @@
       "login_form_submit": "Unesi",
       "signup_form_email_label": "Pošalji e-poruku",
       "signup_form_success": "Poslat ćemo vam poruku e-pošte neposredno prije nego što otvorimo!",
-      "admin_link_html": "Jeste li vlasnik trgovine? <a href=\"/admin\" class=\"text-link\">Prijavite se ovdje</a>",
+      "admin_link_html": "Jeste li vlasnik trgovine? <a href=\"\/admin\" class=\"text-link\">Prijavite se ovdje<\/a>",
       "password_link": "Uđite pomoću lozinke",
       "powered_by_shopify_html": "Trgovinu pokreće {{ shopify }}",
       "close": "Zatvori"
@@ -30,7 +30,7 @@
       "home_link_title": "Nazad na prvu stranicu"
     },
     "forms": {
-      "post_field_error_html": "<strong>{{ field }}</strong> {{ error }}"
+      "post_field_error_html": "<strong>{{ field }}<\/strong> {{ error }}"
     },
     "search": {
       "no_results_html": "Tvoje pretraživanje pojma \"{{ terms }}\" nije dalo rezultate.",
@@ -93,15 +93,15 @@
       "checkout": "Završi kupnju",
       "empty": "Vaša je košarica trenutno prazna.",
       "cookies_required": "Omogućite kolačiće da biste koristili košaricu",
-      "continue_browsing_html": "Nastavi pregledavanje <a href=\"{{ link }}\">ovdje</a>.",
+      "continue_browsing_html": "Nastavi pregledavanje <a href=\"{{ link }}\">ovdje<\/a>.",
       "or": "ili",
       "view_cart": "Prikaži košaricu",
       "close_cart": "Zatvori košaricu",
       "savings_html": "Štediš {{ price }}",
       "taxes_and_shipping_at_checkout": "Porezi i poštarina obračunavaju se prilikom završetka kupnje",
-      "taxes_and_shipping_policy_at_checkout_html": "Porezi i <a href=\"{{ link }}\">poštarina</a> obračunavaju se prilikom završetka kupnje",
+      "taxes_and_shipping_policy_at_checkout_html": "Porezi i <a href=\"{{ link }}\">poštarina<\/a> obračunavaju se prilikom završetka kupnje",
       "taxes_included_but_shipping_at_checkout": "Uključeni porezi i poštarina obračunavaju se prilikom završetka kupnje",
-      "taxes_included_and_shipping_policy_html": "Porez je uključen. <a href=\"{{ link }}\">Poštarina </a> se obračunava prilikom završetka kupnje."
+      "taxes_included_and_shipping_policy_html": "Porez je uključen. <a href=\"{{ link }}\">Poštarina <\/a> se obračunava prilikom završetka kupnje."
     }
   },
   "collections": {
@@ -161,8 +161,8 @@
       "address1": "Adresa 1",
       "address2": "Adresa 2",
       "city": "Grad",
-      "country": "Država / regija",
-      "province": "Županija / pokrajina",
+      "country": "Država \/ regija",
+      "province": "Županija \/ pokrajina",
       "zip": "Poštanski broj",
       "phone": "Telefon",
       "set_default": "Želite li to postaviti kao zadanu adresu?",
@@ -244,7 +244,7 @@
     "featured_collections": {
       "heading": "Kupovanje",
       "more_categories": "Dodatne trgovine",
-      "no_collections_html": "Nemate nijednu zbirku koja bi se ovdje prikazivala. <a href=\"/admin/themes/\">Dodajte istaknute zbirke</a> u postavkama teme.",
+      "no_collections_html": "Nemate nijednu zbirku koja bi se ovdje prikazivala. <a href=\"\/admin\/themes\/\">Dodajte istaknute zbirke<\/a> u postavkama teme.",
       "example_collection": "Ogledna zbirka"
     },
     "featured_collection_rows": {
@@ -294,7 +294,7 @@
     "errors": {
       "address_error": "Pogreška prilikom traženja te adrese",
       "address_no_results": "Nema rezultata za tu adresu",
-      "address_query_limit_html": "Premašili ste ograničenje upotrebe Google API-ja. Razmislite o nadogradnji na <a href=\"https://developers.google.com/maps/premium/usage-limits\">tarifu Premium</a> .",
+      "address_query_limit_html": "Premašili ste ograničenje upotrebe Google API-ja. Razmislite o nadogradnji na <a href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\">tarifu Premium<\/a> .",
       "auth_error_html": "Pojavio se problem prilikom provjere autentičnosti API ključa za Google karte."
     }
   },
@@ -305,7 +305,7 @@
       "sale_price": "Prodajna cijena",
       "regular_price": "Redovna cijena",
       "include_taxes": "Porez je uključen.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Poštarina </a> se obračunava prilikom završetka kupnje."
+      "shipping_policy_html": "<a href=\"{{ link }}\">Poštarina <\/a> se obračunava prilikom završetka kupnje."
     },
     "product": {
       "sold_out": "Rasprodano",

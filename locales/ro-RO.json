@@ -10,7 +10,7 @@
     },
     "404": {
       "title": "404 Pagina nu a fost găsită",
-      "subtext_html": "Pagina solicitată nu există. Dă clic <a href=\"{{ link }}\">aici</a> pentru a continua cumpărăturile."
+      "subtext_html": "Pagina solicitată nu există. Dă clic <a href=\"{{ link }}\">aici<\/a> pentru a continua cumpărăturile."
     },
     "password_page": {
       "spread_the_word": "Dă de veste:",
@@ -20,7 +20,7 @@
       "login_form_submit": "Intră",
       "signup_form_email_label": "E-mail",
       "signup_form_success": "Îți vom trimite un e-mail chiar înainte de deschidere!",
-      "admin_link_html": "Ești proprietarul magazinului? <a href=\"/admin\" class=\"text-link\">Conectează-te aici</a>",
+      "admin_link_html": "Ești proprietarul magazinului? <a href=\"\/admin\" class=\"text-link\">Conectează-te aici<\/a>",
       "password_link": "Intră folosind parola",
       "powered_by_shopify_html": "Acest magazin va fi susținut de {{ shopify }}",
       "close": "Închide"
@@ -30,7 +30,7 @@
       "home_link_title": "Înapoi la pagina principală"
     },
     "forms": {
-      "post_field_error_html": "<strong>{{ field }}</strong> {{ error }}"
+      "post_field_error_html": "<strong>{{ field }}<\/strong> {{ error }}"
     },
     "search": {
       "no_results_html": "Căutarea ta pentru „{{ terms }}” nu a returnat rezultate.",
@@ -93,15 +93,15 @@
       "checkout": "Finalizează comanda",
       "empty": "Coșul tău este momentan gol.",
       "cookies_required": "Permite modulele cookie ca să utilizezi coșul de cumpărături",
-      "continue_browsing_html": "Continuă navigarea <a href=\"{{ link }}\">aici</a>.",
+      "continue_browsing_html": "Continuă navigarea <a href=\"{{ link }}\">aici<\/a>.",
       "or": "sau",
       "view_cart": "Vezi coșul",
       "close_cart": "Închide coșul",
       "savings_html": "Economisești {{ price }}",
       "taxes_and_shipping_at_checkout": "Taxele și transportul sunt calculate la finalizarea comenzii",
-      "taxes_and_shipping_policy_at_checkout_html": "Taxele și <a href=\"{{ link }}\">transportul</a> sunt calculate la finalizarea comenzii",
+      "taxes_and_shipping_policy_at_checkout_html": "Taxele și <a href=\"{{ link }}\">transportul<\/a> sunt calculate la finalizarea comenzii",
       "taxes_included_but_shipping_at_checkout": "Taxele sunt incluse și transportul este calculat la finalizarea comenzii",
-      "taxes_included_and_shipping_policy_html": "Taxe incluse. <a href=\"{{ link }}\">Transportul</a> este calculat la finalizarea comenzii."
+      "taxes_included_and_shipping_policy_html": "Taxe incluse. <a href=\"{{ link }}\">Transportul<\/a> este calculat la finalizarea comenzii."
     }
   },
   "collections": {
@@ -161,8 +161,8 @@
       "address1": "Adresă1",
       "address2": "Adresă2",
       "city": "Localitate",
-      "country": "Țară/Regiune",
-      "province": "Județ/provincie",
+      "country": "Țară\/Regiune",
+      "province": "Județ\/provincie",
       "zip": "Cod poștal",
       "phone": "Telefon",
       "set_default": "Setezi această adresă ca implicită?",
@@ -244,7 +244,7 @@
     "featured_collections": {
       "heading": "Cumpără",
       "more_categories": "Mai multe categorii",
-      "no_collections_html": "Nu mai ai colecții de afișat aici. <a href=\"/admin/themes/\">Adaugă câteva colecții recomandate</a> în setările temei tale.",
+      "no_collections_html": "Nu mai ai colecții de afișat aici. <a href=\"\/admin\/themes\/\">Adaugă câteva colecții recomandate<\/a> în setările temei tale.",
       "example_collection": "Exemplu de colecție"
     },
     "featured_collection_rows": {
@@ -294,7 +294,7 @@
     "errors": {
       "address_error": "Eroare la căutarea adresei respective",
       "address_no_results": "Nu există rezultate pentru adresa respectivă",
-      "address_query_limit_html": "Ai depășit limita de utilizare a API-ului Google. Ia în considerare trecerea la un <a href=\"https://developers.google.com/maps/premium/usage-limits\">Plan Premium</a>.",
+      "address_query_limit_html": "Ai depășit limita de utilizare a API-ului Google. Ia în considerare trecerea la un <a href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\">Plan Premium<\/a>.",
       "auth_error_html": "A apărut o problemă la autentificarea cheii API pentru Google Maps."
     }
   },
@@ -305,7 +305,7 @@
       "sale_price": "Preț la ofertă",
       "regular_price": "Preț obișnuit",
       "include_taxes": "Taxe incluse.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Transportul</a> este calculat la finalizarea comenzii."
+      "shipping_policy_html": "<a href=\"{{ link }}\">Transportul<\/a> este calculat la finalizarea comenzii."
     },
     "product": {
       "sold_out": "Stoc epuizat",

@@ -10,7 +10,7 @@
     },
     "404": {
       "title": "404 Página Não Encontrada",
-      "subtext_html": "A página que solicitou não existe. Clique <a href=\"{{ link }}\">aqui</a> para continuar as suas compras."
+      "subtext_html": "A página que solicitou não existe. Clique <a href=\"{{ link }}\">aqui<\/a> para continuar as suas compras."
     },
     "password_page": {
       "spread_the_word": "Passe a palavra:",
@@ -20,7 +20,7 @@
       "login_form_submit": "Entrar",
       "signup_form_email_label": "E-mail",
       "signup_form_success": "Iremos enviar-lhe um e-mail imediatamente antes de abrirmos!",
-      "admin_link_html": "É o dono da loja? <a href=\"/admin\" class=\"text-link\">Inicie sessão aqui</a>",
+      "admin_link_html": "É o dono da loja? <a href=\"\/admin\" class=\"text-link\">Inicie sessão aqui<\/a>",
       "password_link": "Entre usando a palavra-passe",
       "powered_by_shopify_html": "Esta loja irá contar com tecnologia {{ shopify }}",
       "close": "Encerrar (Esc)"
@@ -30,7 +30,7 @@
       "home_link_title": "Regressar à página inicial"
     },
     "forms": {
-      "post_field_error_html": "O campo <strong>{{ field }}</strong> {{ error }}"
+      "post_field_error_html": "O campo <strong>{{ field }}<\/strong> {{ error }}"
     },
     "search": {
       "no_results_html": "A sua pesquisa por \"{{ terms }}\" não produziu resultados.",
@@ -93,15 +93,15 @@
       "checkout": "finalização da compra",
       "empty": "De momento, o seu carrinho está vazio.",
       "cookies_required": "Ative cookies para poder usar o carrinho de compras",
-      "continue_browsing_html": "Continue a ver <a href=\"{{ link }}\">aqui</a>.",
+      "continue_browsing_html": "Continue a ver <a href=\"{{ link }}\">aqui<\/a>.",
       "or": "ou",
       "view_cart": "Ver carrinho",
       "close_cart": "Fechar carrinho",
       "savings_html": "Está a poupar {{ price }}",
       "taxes_and_shipping_at_checkout": "Impostos e envio calculados na finalização da compra",
-      "taxes_and_shipping_policy_at_checkout_html": "Impostos e <a href=\"{{ link }}\">envio</a> calculados na finalização da compra",
+      "taxes_and_shipping_policy_at_checkout_html": "Impostos e <a href=\"{{ link }}\">envio<\/a> calculados na finalização da compra",
       "taxes_included_but_shipping_at_checkout": "Imposto incluído e envio calculado na finalização da compra",
-      "taxes_included_and_shipping_policy_html": "Imposto incluído. <a href=\"{{ link }}\">Envio</a> calculado na finalização da compra."
+      "taxes_included_and_shipping_policy_html": "Imposto incluído. <a href=\"{{ link }}\">Envio<\/a> calculado na finalização da compra."
     }
   },
   "collections": {
@@ -161,7 +161,7 @@
       "address1": "Endereço1",
       "address2": "Endereço2",
       "city": "Localidade",
-      "country": "País/região",
+      "country": "País\/região",
       "province": "Província",
       "zip": "Código Postal",
       "phone": "Telefone",
@@ -244,7 +244,7 @@
     "featured_collections": {
       "heading": "Procurar Por",
       "more_categories": "Mais categorias",
-      "no_collections_html": "Ainda não tem coleções para exibir aqui. <a href=\"/admin/themes/\">Adicione algumas coleções em destaque</a> nas suas definições de tema.",
+      "no_collections_html": "Ainda não tem coleções para exibir aqui. <a href=\"\/admin\/themes\/\">Adicione algumas coleções em destaque<\/a> nas suas definições de tema.",
       "example_collection": "Coleção Exemplo"
     },
     "featured_collection_rows": {
@@ -294,7 +294,7 @@
     "errors": {
       "address_error": "Não é possível localizar o endereço",
       "address_no_results": "Nenhum resultado para este endereço",
-      "address_query_limit_html": "Você excedeu a cota de uso da API do Google. Considere a atualização para um <a href=\"https://developers.google.com/maps/premium/usage-limits\">Plano Premium</a>.",
+      "address_query_limit_html": "Você excedeu a cota de uso da API do Google. Considere a atualização para um <a href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\">Plano Premium<\/a>.",
       "auth_error_html": "Houve um problema na autenticação da sua chave de API do Google Maps."
     }
   },
@@ -305,7 +305,7 @@
       "sale_price": "Preço de saldo",
       "regular_price": "Preço normal",
       "include_taxes": "Imposto incluído.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Envio</a> calculado na finalização da compra."
+      "shipping_policy_html": "<a href=\"{{ link }}\">Envio<\/a> calculado na finalização da compra."
     },
     "product": {
       "sold_out": "Esgotado",

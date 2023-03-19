@@ -10,7 +10,7 @@
     },
     "404": {
       "title": "404 Page Not Found",
-      "subtext_html": "Halaman yang kamu minta tidak ditemukan. Klik <a href=\"{{ link }}\">di sini</a> untuk lanjut berbelanja."
+      "subtext_html": "Halaman yang kamu minta tidak ditemukan. Klik <a href=\"{{ link }}\">di sini<\/a> untuk lanjut berbelanja."
     },
     "password_page": {
       "spread_the_word": "Sebarkan informasinya:",
@@ -20,7 +20,7 @@
       "login_form_submit": "Masuk",
       "signup_form_email_label": "Email",
       "signup_form_success": "Kami akan mengirimimu email tepat sebelum kami akan buka!",
-      "admin_link_html": "Anda pemilik toko? <a href=\"/admin\" class=\"text-link\">Login di sini</a>",
+      "admin_link_html": "Anda pemilik toko? <a href=\"\/admin\" class=\"text-link\">Login di sini<\/a>",
       "password_link": "Masuk dengan sandi",
       "powered_by_shopify_html": "Toko ini didukung oleh {{ shopify }}",
       "close": "Tutup"
@@ -30,7 +30,7 @@
       "home_link_title": "Kembali ke halaman utama"
     },
     "forms": {
-      "post_field_error_html": "<strong>{{ field }}</strong> {{ error }}"
+      "post_field_error_html": "<strong>{{ field }}<\/strong> {{ error }}"
     },
     "search": {
       "no_results_html": "Pencarian kamu untuk \"{{ terms }}\" tidak dapat ditemukan.",
@@ -93,15 +93,15 @@
       "checkout": "Check out",
       "empty": "Keranjangmu kosong.",
       "cookies_required": "Aktifkan cookie untuk menggunakan keranjang belanja",
-      "continue_browsing_html": "Lanjutkan belanja <a href=\"{{ link }}\">di sini</a>.",
+      "continue_browsing_html": "Lanjutkan belanja <a href=\"{{ link }}\">di sini<\/a>.",
       "or": "atau",
       "view_cart": "Lihat Keranjang",
       "close_cart": "Tutup Keranjang",
       "savings_html": "Kamu hemat {{ price }}",
       "taxes_and_shipping_at_checkout": "Pajak dan biaya pengiriman dihitung saat checkout",
-      "taxes_and_shipping_policy_at_checkout_html": "Pajak dan <a href=\"{{ link }}\">biaya pengiriman</a> dihitung saat checkout",
+      "taxes_and_shipping_policy_at_checkout_html": "Pajak dan <a href=\"{{ link }}\">biaya pengiriman<\/a> dihitung saat checkout",
       "taxes_included_but_shipping_at_checkout": "Pajak yang berlaku dan biaya pengiriman dihitung saat checkout",
-      "taxes_included_and_shipping_policy_html": "Termasuk pajak. <a href=\"{{ link }}\">Biaya pengiriman </a> dihitung saat checkout."
+      "taxes_included_and_shipping_policy_html": "Termasuk pajak. <a href=\"{{ link }}\">Biaya pengiriman <\/a> dihitung saat checkout."
     }
   },
   "collections": {
@@ -161,7 +161,7 @@
       "address1": "Alamat 1",
       "address2": "Alamat 2",
       "city": "Kota",
-      "country": "Negara/Wilayah",
+      "country": "Negara\/Wilayah",
       "province": "Provinsi",
       "zip": "Kode Pos",
       "phone": "Telepon",
@@ -244,7 +244,7 @@
     "featured_collections": {
       "heading": "Belanja",
       "more_categories": "Kategori lainnya",
-      "no_collections_html": "Anda tidak memiliki koleksi untuk ditampilkan di sini. <a href=\"/admin/themes/\">Tambahkan beberapa koleksi unggulan</a> di pengaturan tema Anda.",
+      "no_collections_html": "Anda tidak memiliki koleksi untuk ditampilkan di sini. <a href=\"\/admin\/themes\/\">Tambahkan beberapa koleksi unggulan<\/a> di pengaturan tema Anda.",
       "example_collection": "Contoh Koleksi"
     },
     "featured_collection_rows": {
@@ -294,7 +294,7 @@
     "errors": {
       "address_error": "Kesalahan saat mencari alamat",
       "address_no_results": "Tidak ada hasil untuk alamat tersebut",
-      "address_query_limit_html": "Kamu sudah melampaui batas penggunaan Google API. Silakan upgrade ke <a href=\"https://developers.google.com/maps/premium/usage-limits\">Paket Premium</a>.",
+      "address_query_limit_html": "Kamu sudah melampaui batas penggunaan Google API. Silakan upgrade ke <a href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\">Paket Premium<\/a>.",
       "auth_error_html": "Ada masalah saat mengautentikasi Tombol API Google Maps."
     }
   },
@@ -305,7 +305,7 @@
       "sale_price": "Harga obral",
       "regular_price": "Harga reguler",
       "include_taxes": "Termasuk pajak.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Biaya pengiriman </a> dihitung saat checkout."
+      "shipping_policy_html": "<a href=\"{{ link }}\">Biaya pengiriman <\/a> dihitung saat checkout."
     },
     "product": {
       "sold_out": "Habis",

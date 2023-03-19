@@ -10,7 +10,7 @@
     },
     "404": {
       "title": "404 Strani ni mogoče najti",
-      "subtext_html": "Stran, ki ste jo zahtevali, ne obstaja. Če želite nadaljevati z nakupovanjem, kliknite <a href=\"{{ link }}\">tukaj</a>."
+      "subtext_html": "Stran, ki ste jo zahtevali, ne obstaja. Če želite nadaljevati z nakupovanjem, kliknite <a href=\"{{ link }}\">tukaj<\/a>."
     },
     "password_page": {
       "spread_the_word": "Povejte naprej:",
@@ -20,7 +20,7 @@
       "login_form_submit": "Vstop",
       "signup_form_email_label": "E-poštni naslov",
       "signup_form_success": "Tik pred otvoritvijo vam bomo poslali e-pošto.",
-      "admin_link_html": "Ali ste lastnik trgovine? <a href=\"/admin\" class=\"text-link\">Prijavite se tukaj</a>",
+      "admin_link_html": "Ali ste lastnik trgovine? <a href=\"\/admin\" class=\"text-link\">Prijavite se tukaj<\/a>",
       "password_link": "Vstop z geslom",
       "powered_by_shopify_html": "To trgovino bo omogočala platforma {{ shopify }}",
       "close": "Zapri"
@@ -30,7 +30,7 @@
       "home_link_title": "Nazaj na naslovno stran"
     },
     "forms": {
-      "post_field_error_html": "<strong>{{ field }}</strong> – {{ error }}"
+      "post_field_error_html": "<strong>{{ field }}<\/strong> – {{ error }}"
     },
     "search": {
       "no_results_html": "Za iskalno poizvedbo »{{ terms }}« ni bil najden noben rezultat.",
@@ -93,15 +93,15 @@
       "checkout": "Zaključi nakup",
       "empty": "Vaša košarica je trenutno prazna.",
       "cookies_required": "Za uporabo nakupovalne košarice morate omogočiti piškotke",
-      "continue_browsing_html": "Z brskanjem nadaljujte <a href=\"{{ link }}\">tukaj</a>.",
+      "continue_browsing_html": "Z brskanjem nadaljujte <a href=\"{{ link }}\">tukaj<\/a>.",
       "or": "ali",
       "view_cart": "Prikaži košarico",
       "close_cart": "Zapri košarico",
       "savings_html": "Prihranili boste {{ price }}",
       "taxes_and_shipping_at_checkout": "Davki in dostava se obračunajo ob zaključku nakupa",
-      "taxes_and_shipping_policy_at_checkout_html": "Davki in <a href=\"{{ link }}\">dostava</a> se obračunajo ob zaključku nakupa",
+      "taxes_and_shipping_policy_at_checkout_html": "Davki in <a href=\"{{ link }}\">dostava<\/a> se obračunajo ob zaključku nakupa",
       "taxes_included_but_shipping_at_checkout": "Vključen davek in dostava se obračunata ob zaključku nakupa",
-      "taxes_included_and_shipping_policy_html": "Vključno z davkom. <a href=\"{{ link }}\">Dostava</a> se obračuna ob zaključku nakupa."
+      "taxes_included_and_shipping_policy_html": "Vključno z davkom. <a href=\"{{ link }}\">Dostava<\/a> se obračuna ob zaključku nakupa."
     }
   },
   "collections": {
@@ -161,7 +161,7 @@
       "address1": "Naslov 1",
       "address2": "Naslov 2",
       "city": "Kraj",
-      "country": "Država/regija",
+      "country": "Država\/regija",
       "province": "Območje",
       "zip": "Poštna številka",
       "phone": "Telefonska številka",
@@ -244,7 +244,7 @@
     "featured_collections": {
       "heading": "Nakupujte:",
       "more_categories": "Več kategorij",
-      "no_collections_html": "Tukaj nimate zbirk za prikaz. V nastavitvah teme <a href=\"/admin/themes/\">dodajte nekaj izpostavljenih zbirk</a>.",
+      "no_collections_html": "Tukaj nimate zbirk za prikaz. V nastavitvah teme <a href=\"\/admin\/themes\/\">dodajte nekaj izpostavljenih zbirk<\/a>.",
       "example_collection": "Primer zbirke"
     },
     "featured_collection_rows": {
@@ -294,7 +294,7 @@
     "errors": {
       "address_error": "Pri iskanju tega naslova je prišlo do napake",
       "address_no_results": "Ni rezultatov za ta naslov",
-      "address_query_limit_html": "Prekoračili ste omejitev uporabe Googlovega API-ja. Razmislite o nadgradnji na <a href=\"https://developers.google.com/maps/premium/usage-limits\">paket Premium</a>.",
+      "address_query_limit_html": "Prekoračili ste omejitev uporabe Googlovega API-ja. Razmislite o nadgradnji na <a href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\">paket Premium<\/a>.",
       "auth_error_html": "Prišlo je do težave pri preverjanju pristnosti ključa API-ja za Zemljevide Google."
     }
   },
@@ -305,7 +305,7 @@
       "sale_price": "Znižana cena",
       "regular_price": "Redna cena",
       "include_taxes": "Vključno z davkom.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Dostava</a> se obračuna ob zaključku nakupa."
+      "shipping_policy_html": "<a href=\"{{ link }}\">Dostava<\/a> se obračuna ob zaključku nakupa."
     },
     "product": {
       "sold_out": "Razprodano",

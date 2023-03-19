@@ -10,7 +10,7 @@
     },
     "404": {
       "title": "404 找不到頁面",
-      "subtext_html": "您要求的頁面不存在。按一下<a href=\"{{ link }}\">這裡</a>以繼續購物。"
+      "subtext_html": "您要求的頁面不存在。按一下<a href=\"{{ link }}\">這裡<\/a>以繼續購物。"
     },
     "password_page": {
       "spread_the_word": "四處宣傳：",
@@ -20,7 +20,7 @@
       "login_form_submit": "進入",
       "signup_form_email_label": "電子郵件",
       "signup_form_success": "我們會在即將開張前寄電子郵件通知您！",
-      "admin_link_html": "您是店主嗎？<a href=\"/admin\" class=\"text-link\">請在此登入</a>",
+      "admin_link_html": "您是店主嗎？<a href=\"\/admin\" class=\"text-link\">請在此登入<\/a>",
       "password_link": "以密碼進入",
       "powered_by_shopify_html": "本商店由 {{ shopify }} 提供技術支援",
       "close": "關閉"
@@ -30,7 +30,7 @@
       "home_link_title": "回到首頁"
     },
     "forms": {
-      "post_field_error_html": "此<strong>{{ field }}</strong> {{ error }}"
+      "post_field_error_html": "此<strong>{{ field }}<\/strong> {{ error }}"
     },
     "search": {
       "no_results_html": "您搜尋的「{{ terms }}」沒有任何結果。",
@@ -93,15 +93,15 @@
       "checkout": "結帳",
       "empty": "您的購物車目前沒有商品。",
       "cookies_required": "啟用 Cookie 功能即可使用購物車",
-      "continue_browsing_html": "繼續瀏覽 <a href=\"{{ link }}\">此處</a>。",
+      "continue_browsing_html": "繼續瀏覽 <a href=\"{{ link }}\">此處<\/a>。",
       "or": "或",
       "view_cart": "檢視購物車",
       "close_cart": "關閉購物車",
       "savings_html": "您將省下 {{ price }}",
       "taxes_and_shipping_at_checkout": "結帳時計算稅金和運費",
-      "taxes_and_shipping_policy_at_checkout_html": "結帳時計算稅金和<a href=\"{{ link }}\">運費</a>",
+      "taxes_and_shipping_policy_at_checkout_html": "結帳時計算稅金和<a href=\"{{ link }}\">運費<\/a>",
       "taxes_included_but_shipping_at_checkout": "內含稅金，結帳時計算運費",
-      "taxes_included_and_shipping_policy_html": "內含稅金。結帳時計算<a href=\"{{ link }}\">運費</a>。"
+      "taxes_included_and_shipping_policy_html": "內含稅金。結帳時計算<a href=\"{{ link }}\">運費<\/a>。"
     }
   },
   "collections": {
@@ -161,7 +161,7 @@
       "address1": "地址 1",
       "address2": "地址 2",
       "city": "市",
-      "country": "國家/地區",
+      "country": "國家\/地區",
       "province": "省",
       "zip": "郵遞區號",
       "phone": "電話",
@@ -244,7 +244,7 @@
     "featured_collections": {
       "heading": "購買",
       "more_categories": "更多類別",
-      "no_collections_html": "您在此沒有任何商品系列可顯示在您的主題設定 <a href=\"/admin/themes/\">新增精選商品系列</a>",
+      "no_collections_html": "您在此沒有任何商品系列可顯示在您的主題設定 <a href=\"\/admin\/themes\/\">新增精選商品系列<\/a>",
       "example_collection": "範例商品系列"
     },
     "featured_collection_rows": {
@@ -294,7 +294,7 @@
     "errors": {
       "address_error": "尋找此地址時發生錯誤",
       "address_no_results": "此地址無結果",
-      "address_query_limit_html": "您已超出 Google API 使用量限制。請考慮升級為<a href=\"https://developers.google.com/maps/premium/usage-limits\">付費方案</a>。",
+      "address_query_limit_html": "您已超出 Google API 使用量限制。請考慮升級為<a href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\">付費方案<\/a>。",
       "auth_error_html": "驗證 Google 地圖 API 金鑰時發生問題。"
     }
   },
@@ -305,7 +305,7 @@
       "sale_price": "售價",
       "regular_price": "定價",
       "include_taxes": "內含稅金。",
-      "shipping_policy_html": "結帳時計算<a href=\"{{ link }}\">運費</a>。"
+      "shipping_policy_html": "結帳時計算<a href=\"{{ link }}\">運費<\/a>。"
     },
     "product": {
       "sold_out": "售罄",

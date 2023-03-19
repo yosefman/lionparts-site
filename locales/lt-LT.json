@@ -10,7 +10,7 @@
     },
     "404": {
       "title": "404: puslapis nerastas",
-      "subtext_html": "Puslapis, dėl kurio pateikėte užklausą, neegzistuoja. Jei norite tęsti apsipirkimą, spustelėkite <a href=\"{{ link }}\">čia</a>."
+      "subtext_html": "Puslapis, dėl kurio pateikėte užklausą, neegzistuoja. Jei norite tęsti apsipirkimą, spustelėkite <a href=\"{{ link }}\">čia<\/a>."
     },
     "password_page": {
       "spread_the_word": "Skleiskite žinią:",
@@ -20,7 +20,7 @@
       "login_form_submit": "Įvesti",
       "signup_form_email_label": "El. paštas",
       "signup_form_success": "Prieš pat atsidarydami atsiųsime jums el. laišką!",
-      "admin_link_html": "Ar esate parduotuvės savininkas? <a href=\"/admin\" class=\"text-link\">Prisijunkite čia</a>",
+      "admin_link_html": "Ar esate parduotuvės savininkas? <a href=\"\/admin\" class=\"text-link\">Prisijunkite čia<\/a>",
       "password_link": "Apsilankyti naudojant slaptažodį",
       "powered_by_shopify_html": "Ši parduotuvė priklausys platformai „{{ shopify }}“",
       "close": "Uždaryti"
@@ -30,7 +30,7 @@
       "home_link_title": "Grįžti į pagrindinį puslapį"
     },
     "forms": {
-      "post_field_error_html": "<strong>{{ field }}</strong> {{ error }}"
+      "post_field_error_html": "<strong>{{ field }}<\/strong> {{ error }}"
     },
     "search": {
       "no_results_html": "Pagal „{{ terms }}“ paiešką nerasta jokių rezultatų.",
@@ -93,15 +93,15 @@
       "checkout": "Atsiskaityti",
       "empty": "Šiuo metu jūsų krepšelis tuščias.",
       "cookies_required": "Kad galėtumėte naudoti pirkinių krepšelį, įgalinkite slapukus",
-      "continue_browsing_html": "Tęskite naršymą <a href=\"{{ link }}\">čia</a>.",
+      "continue_browsing_html": "Tęskite naršymą <a href=\"{{ link }}\">čia<\/a>.",
       "or": "arba",
       "view_cart": "Žr. krepšelį",
       "close_cart": "Uždaryti krepšelį",
       "savings_html": "Sutaupote {{ price }}",
       "taxes_and_shipping_at_checkout": "Mokesčiai ir siuntimo išlaidos apskaičiuojami atsiskaitant",
-      "taxes_and_shipping_policy_at_checkout_html": "Mokesčiai ir <a href=\"{{ link }}\">siuntimo išlaidos</a> apskaičiuojami atsiskaitant",
+      "taxes_and_shipping_policy_at_checkout_html": "Mokesčiai ir <a href=\"{{ link }}\">siuntimo išlaidos<\/a> apskaičiuojami atsiskaitant",
       "taxes_included_but_shipping_at_checkout": "Mokesčiai įtraukti, o siuntimo išlaidos apskaičiuojamos atsiskaitant",
-      "taxes_included_and_shipping_policy_html": "Mokesčiai įtraukti. <a href=\"{{ link }}\">Siuntimo išlaidos</a> apskaičiuojamos atsiskaitant."
+      "taxes_included_and_shipping_policy_html": "Mokesčiai įtraukti. <a href=\"{{ link }}\">Siuntimo išlaidos<\/a> apskaičiuojamos atsiskaitant."
     }
   },
   "collections": {
@@ -161,7 +161,7 @@
       "address1": "Adresas (1)",
       "address2": "Adresas (2)",
       "city": "Miestas",
-      "country": "Šalis / regionas",
+      "country": "Šalis \/ regionas",
       "province": "Sritis",
       "zip": "Pašto kodas",
       "phone": "Telefonas",
@@ -244,7 +244,7 @@
     "featured_collections": {
       "heading": "Pirkti",
       "more_categories": "Daugiau kategorijų",
-      "no_collections_html": "Neturite jokių kolekcijų, kurios būtų rodomos čia. <a href=\"/admin/themes/\">Įtraukite kelias siūlomas kolekcijas</a> temos nustatymuose.",
+      "no_collections_html": "Neturite jokių kolekcijų, kurios būtų rodomos čia. <a href=\"\/admin\/themes\/\">Įtraukite kelias siūlomas kolekcijas<\/a> temos nustatymuose.",
       "example_collection": "Pavyzdinė kolekcija"
     },
     "featured_collection_rows": {
@@ -294,7 +294,7 @@
     "errors": {
       "address_error": "Ieškant šio adreso įvyko klaida",
       "address_no_results": "Nerasta šio adreso rezultatų",
-      "address_query_limit_html": "Viršijote „Google“ API naudojimo apribojimą. Apsvarstykite galimybę naujovinti į <a href=\"https://developers.google.com/maps/premium/usage-limits\">planą „Premium“</a>.",
+      "address_query_limit_html": "Viršijote „Google“ API naudojimo apribojimą. Apsvarstykite galimybę naujovinti į <a href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\">planą „Premium“<\/a>.",
       "auth_error_html": "Patvirtinant „Google“ žemėlapių API raktą iškilo problema."
     }
   },
@@ -305,7 +305,7 @@
       "sale_price": "Kaina su nuolaida",
       "regular_price": "Įprasta kaina",
       "include_taxes": "Mokesčiai įtraukti.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Siuntimo išlaidos</a> apskaičiuojamos atsiskaitant."
+      "shipping_policy_html": "<a href=\"{{ link }}\">Siuntimo išlaidos<\/a> apskaičiuojamos atsiskaitant."
     },
     "product": {
       "sold_out": "Išparduota",

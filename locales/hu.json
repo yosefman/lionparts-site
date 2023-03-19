@@ -10,7 +10,7 @@
     },
     "404": {
       "title": "404 Az oldal nem található",
-      "subtext_html": "Nem létezik a kért oldal. <a href=\"{{ link }}\">Ide</a> kattintva tovább vásárolhatsz."
+      "subtext_html": "Nem létezik a kért oldal. <a href=\"{{ link }}\">Ide<\/a> kattintva tovább vásárolhatsz."
     },
     "password_page": {
       "login_form_heading": "Belépés a boltba jelszóval:",
@@ -19,7 +19,7 @@
       "login_form_submit": "Belépés",
       "signup_form_email_label": "E-mail-cím",
       "signup_form_success": "E-mailben értesítünk a nyitás előtt!",
-      "admin_link_html": "Te vagy a bolt tulajdonosa? <a href=\"/admin\" class=\"text-link\">Jelentkezz be itt</a>",
+      "admin_link_html": "Te vagy a bolt tulajdonosa? <a href=\"\/admin\" class=\"text-link\">Jelentkezz be itt<\/a>",
       "password_link": "Belépés jelszóval",
       "powered_by_shopify_html": "A bolt szolgáltatója a {{ shopify }}",
       "close": "Bezárás",
@@ -48,7 +48,7 @@
       "method": "Fizetési ikonok"
     },
     "forms": {
-      "post_field_error_html": "A(z) <strong>{{ field }}</strong> {{ error }}"
+      "post_field_error_html": "A(z) <strong>{{ field }}<\/strong> {{ error }}"
     }
   },
   "blogs": {
@@ -92,13 +92,13 @@
       "checkout": "Megrendelés",
       "empty": "A kosarad jelenleg üres.",
       "cookies_required": "A kosár használatához engedélyezned kell a sütiket",
-      "continue_browsing_html": "<a href=\"{{ link }}\">Ide</a> kattintva tovább böngészhetsz.",
+      "continue_browsing_html": "<a href=\"{{ link }}\">Ide<\/a> kattintva tovább böngészhetsz.",
       "close_cart": "A kosár bezárása",
       "savings_html": "Megtakarítás: {{ price }}",
       "taxes_and_shipping_at_checkout": "Az adókat és a szállítási költséget a megrendeléskor számítjuk ki",
-      "taxes_and_shipping_policy_at_checkout_html": "Az adókat és a <a href=\"{{ link }}\">szállítási költséget</a> a megrendeléskor számítjuk ki",
+      "taxes_and_shipping_policy_at_checkout_html": "Az adókat és a <a href=\"{{ link }}\">szállítási költséget<\/a> a megrendeléskor számítjuk ki",
       "taxes_included_but_shipping_at_checkout": "Tartalmazza a megrendeléskor kiszámított adót és szállítási költséget",
-      "taxes_included_and_shipping_policy_html": "Tartalmazza az adót. A megrendeléskor kiszámított <a href=\"{{ link }}\">szállítási költség</a>.",
+      "taxes_included_and_shipping_policy_html": "Tartalmazza az adót. A megrendeléskor kiszámított <a href=\"{{ link }}\">szállítási költség<\/a>.",
       "update": "A kosár frissítése",
       "or": "vagy",
       "view_cart": "Kosár megtekintése"
@@ -161,7 +161,7 @@
       "address1": "Cím 1. sora",
       "address2": "Cím 2. sora",
       "city": "Település",
-      "country": "Ország/régió",
+      "country": "Ország\/régió",
       "province": "Megye",
       "zip": "Irányítószám",
       "phone": "Telefonszám",
@@ -256,7 +256,7 @@
     "featured_collections": {
       "heading": "Vásárlás:",
       "more_categories": "További kategóriák",
-      "no_collections_html": "Nincsenek itt megjeleníthető kollekciók. <a href=\"/admin/themes/\">Adj meg kiemelt kollekciókat</a> a témabeállítások között.",
+      "no_collections_html": "Nincsenek itt megjeleníthető kollekciók. <a href=\"\/admin\/themes\/\">Adj meg kiemelt kollekciókat<\/a> a témabeállítások között.",
       "example_collection": "Mintakollekció"
     }
   },
@@ -294,7 +294,7 @@
     "errors": {
       "address_error": "Hiba történt a cím keresésekor",
       "address_no_results": "Nincs eredmény erre a címre",
-      "address_query_limit_html": "Túllépted a felhasználható Google API-k számát. Érdemes lehet <a href=\"https://developers.google.com/maps/premium/usage-limits\">prémium csomagra</a> váltanod.",
+      "address_query_limit_html": "Túllépted a felhasználható Google API-k számát. Érdemes lehet <a href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\">prémium csomagra<\/a> váltanod.",
       "auth_error_html": "Hiba történt a Google Térkép API-kulcs hitelesítésekor."
     }
   },
@@ -303,7 +303,7 @@
       "sale_price": "Akciós ár",
       "regular_price": "Normál ár",
       "include_taxes": "Tartalmazza az adót.",
-      "shipping_policy_html": "A megrendeléskor kiszámított <a href=\"{{ link }}\">szállítási költség</a>.",
+      "shipping_policy_html": "A megrendeléskor kiszámított <a href=\"{{ link }}\">szállítási költség<\/a>.",
       "related_products": "Ajánljuk még",
       "save_html": "{{ saved_amount }} megtakarítás!"
     },

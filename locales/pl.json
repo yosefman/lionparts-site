@@ -10,7 +10,7 @@
     },
     "404": {
       "title": "404 Nie znaleziono strony",
-      "subtext_html": "Żądana strona nie istnieje. Kliknij <a href=\"{{ link }}\">tutaj</a>, aby kontynuować zakupy."
+      "subtext_html": "Żądana strona nie istnieje. Kliknij <a href=\"{{ link }}\">tutaj<\/a>, aby kontynuować zakupy."
     },
     "password_page": {
       "spread_the_word": "Przekaż dalej:",
@@ -20,7 +20,7 @@
       "login_form_submit": "Enter",
       "signup_form_email_label": "E-mail",
       "signup_form_success": "Wyślemy Ci wiadomość e-mail tuż przed otwarciem!",
-      "admin_link_html": "Czy jesteś właścicielem sklepu? <a href=\"/admin\" class=\"text-link\">Zaloguj się tutaj</a>",
+      "admin_link_html": "Czy jesteś właścicielem sklepu? <a href=\"\/admin\" class=\"text-link\">Zaloguj się tutaj<\/a>",
       "password_link": "Wejdź, wpisując hasło",
       "powered_by_shopify_html": "Ten sklep będzie obsługiwany przez {{ shopify }}",
       "close": "Zamknij"
@@ -30,7 +30,7 @@
       "home_link_title": "Powrót do strony początkowej"
     },
     "forms": {
-      "post_field_error_html": "<strong>{{ field }}</strong> {{ error }}"
+      "post_field_error_html": "<strong>{{ field }}<\/strong> {{ error }}"
     },
     "search": {
       "no_results_html": "Twoje wyszukiwanie \"{{ terms }}\" nie dało żadnych wyników.",
@@ -93,15 +93,15 @@
       "checkout": "Realizacja zakupu",
       "empty": "Twój koszyk jest obecnie pusty.",
       "cookies_required": "Włącz pliki cookie, aby korzystać z koszyka",
-      "continue_browsing_html": "Kontynuuj przeglądanie <a href=\"{{ link }}\">tutaj</a>.",
+      "continue_browsing_html": "Kontynuuj przeglądanie <a href=\"{{ link }}\">tutaj<\/a>.",
       "or": "lub",
       "view_cart": "Wyświetl koszyk",
       "close_cart": "Zamknij koszyk",
       "savings_html": "Oszczędzasz {{ price }}",
       "taxes_and_shipping_at_checkout": "Podatki i koszty wysyłki obliczane przy kasie",
-      "taxes_and_shipping_policy_at_checkout_html": "Podatki i <a href=\"{{ link }}\">koszyt wysyłki</a> obliczane przy kasie",
+      "taxes_and_shipping_policy_at_checkout_html": "Podatki i <a href=\"{{ link }}\">koszyt wysyłki<\/a> obliczane przy kasie",
       "taxes_included_but_shipping_at_checkout": "Podatek wliczony w cenę i wysyłka obliczona przy kasie",
-      "taxes_included_and_shipping_policy_html": "Z wliczonym podatkiem. <a href=\"{{ link }}\">Koszt wysyłki</a> obliczony przy kasie."
+      "taxes_included_and_shipping_policy_html": "Z wliczonym podatkiem. <a href=\"{{ link }}\">Koszt wysyłki<\/a> obliczony przy kasie."
     }
   },
   "collections": {
@@ -161,7 +161,7 @@
       "address1": "Adres 1",
       "address2": "Adres 2",
       "city": "Miasto",
-      "country": "Kraj/region",
+      "country": "Kraj\/region",
       "province": "Prowincja",
       "zip": "Kod pocztowy",
       "phone": "Telefon",
@@ -244,7 +244,7 @@
     "featured_collections": {
       "heading": "Kupuj",
       "more_categories": "Więcej kategorii",
-      "no_collections_html": "Nie masz tutaj żadnych kolekcji do wyświetlenia. <a href=\"/admin/themes/\">Dodaj kilka polecanych kolekcji</a> do ustawień szablonu.",
+      "no_collections_html": "Nie masz tutaj żadnych kolekcji do wyświetlenia. <a href=\"\/admin\/themes\/\">Dodaj kilka polecanych kolekcji<\/a> do ustawień szablonu.",
       "example_collection": "Przykładowa kolekcja"
     },
     "featured_collection_rows": {
@@ -294,7 +294,7 @@
     "errors": {
       "address_error": "Błąd podczas wyszukiwania tego adresu",
       "address_no_results": "Brak wyników dla tego adresu",
-      "address_query_limit_html": "Przekroczono limit używania interfejsu API Google. Rozważ przejście do <a href=\"https://developers.google.com/maps/premium/usage-limits\">Planu Premium</a>.",
+      "address_query_limit_html": "Przekroczono limit używania interfejsu API Google. Rozważ przejście do <a href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\">Planu Premium<\/a>.",
       "auth_error_html": "Wystąpił problem z uwierzytelnianiem klucza API Google Maps."
     }
   },
@@ -305,7 +305,7 @@
       "sale_price": "Cena sprzedaży",
       "regular_price": "Zwykła cena",
       "include_taxes": "Z wliczonym podatkiem.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Koszt wysyłki</a> obliczony przy realizacji zakupu."
+      "shipping_policy_html": "<a href=\"{{ link }}\">Koszt wysyłki<\/a> obliczony przy realizacji zakupu."
     },
     "product": {
       "sold_out": "Wyprzedane",

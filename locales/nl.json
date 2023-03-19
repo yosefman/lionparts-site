@@ -10,7 +10,7 @@
     },
     "404": {
       "title": "404 pagina niet gevonden",
-      "subtext_html": "De pagina die je hebt opgevraagd bestaat niet. Klik <a href=\"{{ link }}\">hier</a> om te blijven winkelen."
+      "subtext_html": "De pagina die je hebt opgevraagd bestaat niet. Klik <a href=\"{{ link }}\">hier<\/a> om te blijven winkelen."
     },
     "password_page": {
       "spread_the_word": "Vertel het verder:",
@@ -20,7 +20,7 @@
       "login_form_submit": "Naar binnen",
       "signup_form_email_label": "E-mail",
       "signup_form_success": "Wij sturen je een e-mail nog voordat we opengaan!",
-      "admin_link_html": "Ben jij de winkeleigenaar? <a href=\"/admin\" class=\"text-link\">Log hier in</a>",
+      "admin_link_html": "Ben jij de winkeleigenaar? <a href=\"\/admin\" class=\"text-link\">Log hier in<\/a>",
       "password_link": "Ga naar binnen met wachtwoord",
       "powered_by_shopify_html": "Deze winkel wordt door {{ shopify }} aangedreven",
       "close": "Sluiten"
@@ -30,7 +30,7 @@
       "home_link_title": "Terug naar de voorpagina"
     },
     "forms": {
-      "post_field_error_html": "De <strong>{{ field }}</strong> {{ error }}"
+      "post_field_error_html": "De <strong>{{ field }}<\/strong> {{ error }}"
     },
     "search": {
       "no_results_html": "Je zoekopdracht voor \"{{ terms }}\" leverde geen resultaten op.",
@@ -93,15 +93,15 @@
       "checkout": "Afrekenen",
       "empty": "Je winkelwagen is leeg.",
       "cookies_required": "Schakel cookies in om de winkelwagen te gebruiken",
-      "continue_browsing_html": "Blijf <a href=\"{{ link }}\">hier</a> browsen.",
+      "continue_browsing_html": "Blijf <a href=\"{{ link }}\">hier<\/a> browsen.",
       "or": "of",
       "view_cart": "Winkelwagen bekijken",
       "close_cart": "Winkelwagen sluiten",
       "savings_html": "Je bespaart {{ price }}",
       "taxes_and_shipping_at_checkout": "Belastingen en verzendkosten worden berekend bij het afrekenen",
-      "taxes_and_shipping_policy_at_checkout_html": "Belastingen en <a href=\"{{ link }}\">verzendkosten</a> worden berekend bij het afrekenen",
+      "taxes_and_shipping_policy_at_checkout_html": "Belastingen en <a href=\"{{ link }}\">verzendkosten<\/a> worden berekend bij het afrekenen",
       "taxes_included_but_shipping_at_checkout": "Belasting inbegrepen en verzendkosten worden berekend bij het afrekenen",
-      "taxes_included_and_shipping_policy_html": "Inclusief belasting. <a href=\"{{ link }}\">Verzendkosten</a> worden berekend bij het afrekenen."
+      "taxes_included_and_shipping_policy_html": "Inclusief belasting. <a href=\"{{ link }}\">Verzendkosten<\/a> worden berekend bij het afrekenen."
     }
   },
   "collections": {
@@ -161,7 +161,7 @@
       "address1": "Adres 1",
       "address2": "Adres 2",
       "city": "Stad",
-      "country": "Land/regio",
+      "country": "Land\/regio",
       "province": "Provincie",
       "zip": "Postcode",
       "phone": "Telefoon",
@@ -244,7 +244,7 @@
     "featured_collections": {
       "heading": "Winkelen voor",
       "more_categories": "Meer categorieën",
-      "no_collections_html": "Je hebt geen collecties om hier te tonen. <a href=\"/admin/themes/\">Voeg een aantal uitgelichte collecties toe</a> in je thema-instellingen.",
+      "no_collections_html": "Je hebt geen collecties om hier te tonen. <a href=\"\/admin\/themes\/\">Voeg een aantal uitgelichte collecties toe<\/a> in je thema-instellingen.",
       "example_collection": "Voorbeeld collectie"
     },
     "featured_collection_rows": {
@@ -294,7 +294,7 @@
     "errors": {
       "address_error": "Fout bij het opzoeken van dat adres",
       "address_no_results": "Geen resultaten voor dat adres",
-      "address_query_limit_html": "Je hebt de gebruikslimiet van de Google API overschreden. Overweeg een upgrade naar een <a href=\"https://developers.google.com/maps/premium/usage-limits\">Premium-pakket</a>.",
+      "address_query_limit_html": "Je hebt de gebruikslimiet van de Google API overschreden. Overweeg een upgrade naar een <a href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\">Premium-pakket<\/a>.",
       "auth_error_html": "Er is een probleem opgetreden bij het verifiëren van je Google Maps API-sleutel."
     }
   },
@@ -305,7 +305,7 @@
       "sale_price": "Aanbiedingsprijs",
       "regular_price": "Normale prijs",
       "include_taxes": "Inclusief belasting.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Verzendkosten</a> worden berekend bij het afrekenen."
+      "shipping_policy_html": "<a href=\"{{ link }}\">Verzendkosten<\/a> worden berekend bij het afrekenen."
     },
     "product": {
       "sold_out": "Uitverkocht",

@@ -10,7 +10,7 @@
     },
     "404": {
       "title": "404 Stránka nenalezena",
-      "subtext_html": "Stránka, o kterou žádáte, neexistuje. Klikněte <a href=\"{{ link }}\">sem</a> a pokračujte v nakupování."
+      "subtext_html": "Stránka, o kterou žádáte, neexistuje. Klikněte <a href=\"{{ link }}\">sem<\/a> a pokračujte v nakupování."
     },
     "password_page": {
       "spread_the_word": "Šířit informace:",
@@ -20,7 +20,7 @@
       "login_form_submit": "Zadat",
       "signup_form_email_label": "E-mail",
       "signup_form_success": "Těsně než otevřeme, pošleme vám e-mail!",
-      "admin_link_html": "Jste majitelem obchodu? <a href=\"/admin\" class=\"text-link\">Přihlaste se zde</a>",
+      "admin_link_html": "Jste majitelem obchodu? <a href=\"\/admin\" class=\"text-link\">Přihlaste se zde<\/a>",
       "password_link": "Vstoupit pomocí hesla",
       "powered_by_shopify_html": "Tento obchod poběží na platformě {{ shopify }}",
       "close": "Zavřít"
@@ -30,7 +30,7 @@
       "home_link_title": "Zpátky na hlavní stránku"
     },
     "forms": {
-      "post_field_error_html": "<strong>{{ field }}</strong> {{ error }}"
+      "post_field_error_html": "<strong>{{ field }}<\/strong> {{ error }}"
     },
     "search": {
       "no_results_html": "Vaše hledání „{{ terms }}“ nepřineslo žádné výsledky.",
@@ -93,15 +93,15 @@
       "checkout": "Pokladna",
       "empty": "Váš košík je momentálně prázdný.",
       "cookies_required": "K použití nákupního košíku musíte povolit cookies",
-      "continue_browsing_html": "Pokračovat v prohlížení <a href=\"{{ link }}\">zde</a>.",
+      "continue_browsing_html": "Pokračovat v prohlížení <a href=\"{{ link }}\">zde<\/a>.",
       "or": "nebo",
       "view_cart": "Zobrazit košík",
       "close_cart": "Zavřít košík",
       "savings_html": "Ušetříte {{ price }}",
       "taxes_and_shipping_at_checkout": "Daně a poštovné se vypočítají v pokladně",
-      "taxes_and_shipping_policy_at_checkout_html": "Daně a <a href=\"{{ link }}\">poštovné</a> se vypočítá v pokladně",
+      "taxes_and_shipping_policy_at_checkout_html": "Daně a <a href=\"{{ link }}\">poštovné<\/a> se vypočítá v pokladně",
       "taxes_included_but_shipping_at_checkout": "Daně a poštovné se vypočítají v pokladně",
-      "taxes_included_and_shipping_policy_html": "Včetně daní. <a href=\"{{ link }}\">Poštovné</a> se vypočítá v pokladně."
+      "taxes_included_and_shipping_policy_html": "Včetně daní. <a href=\"{{ link }}\">Poštovné<\/a> se vypočítá v pokladně."
     }
   },
   "collections": {
@@ -161,7 +161,7 @@
       "address1": "adresa 1",
       "address2": "adresa 2 (volitelné)",
       "city": "Město",
-      "country": "Země/region",
+      "country": "Země\/region",
       "province": "Provincie",
       "zip": "PSČ",
       "phone": "Telefon",
@@ -244,7 +244,7 @@
     "featured_collections": {
       "heading": "Nakupovat za",
       "more_categories": "Další kategorie",
-      "no_collections_html": "Nemáte žádné kolekce, které by se zde mohly zobrazit. <a href=\"/admin/themes/\">Přidejte některé propagované kolekce</a> do svých nastavení motivu.",
+      "no_collections_html": "Nemáte žádné kolekce, které by se zde mohly zobrazit. <a href=\"\/admin\/themes\/\">Přidejte některé propagované kolekce<\/a> do svých nastavení motivu.",
       "example_collection": "Vzorová kolekce"
     },
     "featured_collection_rows": {
@@ -294,7 +294,7 @@
     "errors": {
       "address_error": "Chyba při hledání této adresy",
       "address_no_results": "Žádné výsledky pro tuto adresu",
-      "address_query_limit_html": "Je překročen limit použití API Google. Zvažte upgrade na <a href=\"https://developers.google.com/maps/premium/usage-limits\">plán Premium</a>.",
+      "address_query_limit_html": "Je překročen limit použití API Google. Zvažte upgrade na <a href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\">plán Premium<\/a>.",
       "auth_error_html": "Došlo k problému při ověření vašeho klíče API Map Google."
     }
   },
@@ -305,7 +305,7 @@
       "sale_price": "Prodejní cena",
       "regular_price": "Běžná cena",
       "include_taxes": "Včetně daní.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Poštovné</a> se vypočítá v pokladně."
+      "shipping_policy_html": "<a href=\"{{ link }}\">Poštovné<\/a> se vypočítá v pokladně."
     },
     "product": {
       "sold_out": "Vyprodáno",

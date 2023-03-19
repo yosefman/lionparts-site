@@ -2,7 +2,7 @@
   "general": {
     "accessibility": {
       "refresh_page": "bir seçim yapmanız sayfanın tamamının yenilenmesine neden olur",
-      "unit_price_separator": "/"
+      "unit_price_separator": "\/"
     },
     "meta": {
       "tags": "\"{{ tags }}\" etiketlendi",
@@ -10,7 +10,7 @@
     },
     "404": {
       "title": "404 Sayfa Bulunamadı",
-      "subtext_html": "Talep ettiğiniz sayfa mevcut değil. Alışverişe devam etmek için <a href=\"{{ link }}\">buraya tıklayın</a>."
+      "subtext_html": "Talep ettiğiniz sayfa mevcut değil. Alışverişe devam etmek için <a href=\"{{ link }}\">buraya tıklayın<\/a>."
     },
     "password_page": {
       "spread_the_word": "Sözcüğü yay:",
@@ -20,7 +20,7 @@
       "login_form_submit": "Gir",
       "signup_form_email_label": "E-posta",
       "signup_form_success": "Açılıştan hemen önce size e-posta göndereceğiz!",
-      "admin_link_html": "Mağaza sahibi misiniz? <a href=\"/admin\" class=\"text-link\">Buradan oturum açın</a>",
+      "admin_link_html": "Mağaza sahibi misiniz? <a href=\"\/admin\" class=\"text-link\">Buradan oturum açın<\/a>",
       "password_link": "Parola kullanarak girin",
       "powered_by_shopify_html": "Bu mağaza {{ shopify }} tarafından desteklenir",
       "close": "Kapat"
@@ -30,7 +30,7 @@
       "home_link_title": "Ön sayfaya geri dönün"
     },
     "forms": {
-      "post_field_error_html": "<strong>{{ field }}</strong> {{ error }}"
+      "post_field_error_html": "<strong>{{ field }}<\/strong> {{ error }}"
     },
     "search": {
       "no_results_html": "\"{{ terms }}\" aramanız sonuç vermedi.",
@@ -93,15 +93,15 @@
       "checkout": "Ödeme sayfası",
       "empty": "Sepetiniz şu anda boş.",
       "cookies_required": "Alışveriş sepetini kullanmak için çerezleri etkinleştirin",
-      "continue_browsing_html": "<a href=\"{{ link }}\">Buradan</a> gezinmeye devam edin.",
+      "continue_browsing_html": "<a href=\"{{ link }}\">Buradan<\/a> gezinmeye devam edin.",
       "or": "veya",
       "view_cart": "Sepeti Görüntüle",
       "close_cart": "Sepeti Kapat",
       "savings_html": "{{ price }} tasarruf ediyorsunuz",
       "taxes_and_shipping_at_checkout": "Vergiler ve kargo, ödeme sayfasında hesaplanır",
-      "taxes_and_shipping_policy_at_checkout_html": "Vergiler ve <a href=\"{{ link }}\">kargo</a>, ödeme sayfasında hesaplanır",
+      "taxes_and_shipping_policy_at_checkout_html": "Vergiler ve <a href=\"{{ link }}\">kargo<\/a>, ödeme sayfasında hesaplanır",
       "taxes_included_but_shipping_at_checkout": "Vergi dahildir ve kargo, ödeme sayfasında hesaplanır",
-      "taxes_included_and_shipping_policy_html": "Vergi dahildir. <a href=\"{{ link }}\">Kargo</a>, ödeme sayfasında hesaplanır."
+      "taxes_included_and_shipping_policy_html": "Vergi dahildir. <a href=\"{{ link }}\">Kargo<\/a>, ödeme sayfasında hesaplanır."
     }
   },
   "collections": {
@@ -161,7 +161,7 @@
       "address1": "Adres 1",
       "address2": "Adres 2",
       "city": "Şehir",
-      "country": "Ülke/Bölge",
+      "country": "Ülke\/Bölge",
       "province": "İl",
       "zip": "Posta Kodu",
       "phone": "Telefon",
@@ -244,7 +244,7 @@
     "featured_collections": {
       "heading": "Şunun İçin Alışveriş:",
       "more_categories": "Diğer kategoriler",
-      "no_collections_html": "Burada gösterilecek bir koleksiyonunuz yok. Teme ayarlarınızda, <a href=\"/admin/themes/\">öne çıkan bazı koleksiyonlar ekleyin</a>.",
+      "no_collections_html": "Burada gösterilecek bir koleksiyonunuz yok. Teme ayarlarınızda, <a href=\"\/admin\/themes\/\">öne çıkan bazı koleksiyonlar ekleyin<\/a>.",
       "example_collection": "Örnek Koleksiyon"
     },
     "featured_collection_rows": {
@@ -294,7 +294,7 @@
     "errors": {
       "address_error": "Bu adres aranırken hata oluştu",
       "address_no_results": "Bu adres için sonuç yok",
-      "address_query_limit_html": "Google API kullanım sınırını aştınız. <a href=\"https://developers.google.com/maps/premium/usage-limits\">Premium Plan</a>'a yükseltmeyi düşünün.",
+      "address_query_limit_html": "Google API kullanım sınırını aştınız. <a href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\">Premium Plan<\/a>'a yükseltmeyi düşünün.",
       "auth_error_html": "Google Haritalar API Anahtarınızın kimliği doğrulanırken sorun oluştu."
     }
   },
@@ -305,7 +305,7 @@
       "sale_price": "Satış fiyatı",
       "regular_price": "Normal fiyat",
       "include_taxes": "Vergi dahildir.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Kargo</a>, ödeme sayfasında hesaplanır."
+      "shipping_policy_html": "<a href=\"{{ link }}\">Kargo<\/a>, ödeme sayfasında hesaplanır."
     },
     "product": {
       "sold_out": "Tükendi",
