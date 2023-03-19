@@ -32,7 +32,7 @@
               {%- assign width = 650 -%}
               {%- assign height = 1000 -%}
 
-              {%- include 'image-logic' with width: width, height: height -%}
+              {%- render 'image-logic' with width: width, height: height -%}
 
               {%- assign img_url = article.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
               <div class="lazyload__image-wrapper" data-image-id="{{ image.id }}" style="max-width: {{ max_width }}px">
@@ -70,7 +70,7 @@
             </li>
             {% endif %}
 
-            {% include 'tags-article' %}
+            {% render 'tags-article' %}
           </ul>
 
           <p><a href="{{ article.url }}">{{ 'blogs.article.read_more' | t }} →</a></p>
@@ -80,7 +80,7 @@
         {% if paginate.pages > 1 %}
         <hr>
         <div class="text-center">
-          {% include 'pagination-custom' %}
+          {% render 'pagination-custom' %}
         </div>
         {% endif %}
 
@@ -89,7 +89,7 @@
   </div>
 
   <aside class="sidebar grid-item large--one-fifth grid-border--left">
-    {% include 'blog-sidebar' %}
+    {% render 'blog-sidebar' %}
   </aside>
 </div>
 
